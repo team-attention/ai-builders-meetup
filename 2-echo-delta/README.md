@@ -85,9 +85,25 @@
 
 ---
 
+## 파일 구조
+
+```
+2-echo-delta/
+├── speakers/
+│   ├── speaker-guide.md      # 스피커 가이드 (발표 전 전달)
+│   └── panel-talk-scenario.md # 패널 토크 질문지 (MC용)
+├── stories/
+│   └── nametag-generation-story.md  # 네임택 생성 과정 기록
+├── slides/                   # 발표 슬라이드 (PDF)
+├── nametags/                 # 생성된 네임택 이미지
+├── assets/                   # 기타 에셋
+├── attendee/                 # 참석자 관련
+└── scripts/                  # 자동화 스크립트
+```
+
 ## 발표 자료
 
-밋업 종료 후 스피커들의 발표 자료가 공유될 예정입니다.
+밋업 종료 후 스피커들의 발표 자료가 `slides/` 폴더에 공유됩니다.
 
 ---
 
