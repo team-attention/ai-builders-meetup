@@ -16,5 +16,5 @@
 
 ## Host
 
-[Team Attention](https://www.notion.so/Team-Attention-Community-2c64bb32287c8054b177caf31f737597)
+[Team Attention](https://team-attention.com/)
 정구봉 (https://www.linkedin.com/in/gb-jeong/)
