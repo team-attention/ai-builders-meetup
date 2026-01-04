@@ -12,3 +12,9 @@ attendee/hosts_test.csv
 # Python
 __pycache__/
 *.pyc
+
+# Video files (large binary files)
+*.mov
+*.mp4
+*.avi
+*.mkv
