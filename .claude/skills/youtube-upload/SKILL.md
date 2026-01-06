@@ -220,18 +220,23 @@ python scripts/youtube/auth.py
 ### 예시 1: 밋업 영상 업로드
 
 ```bash
+# burnin 영상 (한국어 자막 하드코딩) + 영어 자막 (YouTube 자막 트랙)
 /youtube-upload \
-  --video 2-echo-delta/videos/raw/meetup_02_서진님.mov \
+  --video 2-echo-delta/videos/burnin_output/meetup_02_서진님_burnin.mp4 \
   --subtitle 2-echo-delta/videos/subtitles/en/meetup_02_서진님_corrected_en.srt \
   --reference 2-echo-delta/slides/1-김서진-AI-Native.pdf
 ```
+
+**업로드 구조**:
+- 한국어 자막: 영상에 하드코딩 (항상 표시)
+- 영어 자막: YouTube 자막 트랙 (시청자가 선택)
 
 ### 출력
 
 ```
 ## 유튜브 업로드 완료
 
-- **영상**: meetup_02_서진님.mov
+- **영상**: meetup_02_서진님_burnin.mp4
 - **URL**: https://youtu.be/abc123xyz
 - **공개설정**: private
 
@@ -240,8 +245,8 @@ python scripts/youtube/auth.py
 - **설명**: AI-Native Company를 구축하기 위한 전략과 실제 사례를 공유합니다...
 
 ### 자막
-- **파일**: meetup_02_서진님_corrected_en.srt
-- **언어**: 영어
+- **한국어**: 영상에 하드코딩됨
+- **영어**: meetup_02_서진님_corrected_en.srt (YouTube 자막)
 
 ### 다음 단계
 - 영상 확인: https://youtu.be/abc123xyz
