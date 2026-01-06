@@ -98,7 +98,7 @@ ai-builders-meetup/
 │   │   ├── subtitles/      # 자막 파일들
 │   │   │   ├── raw/        # 원본 SRT
 │   │   │   ├── corrected/  # 교정된 SRT
-│   │   │   ├── ass/        # ASS 포맷
+│   │   │   ├── en/         # 영어 번역
 │   │   │   └── validation/ # 검증 보고서
 │   │   └── burnin_output/  # 자막 합성 영상
 │   └── speakers/           # 스피커 정보
@@ -110,7 +110,7 @@ ai-builders-meetup/
 │       ├── cleaner.py          # 중복/hallucination 제거
 │       ├── corrector.py        # 전문용어 교정
 │       └── burnin.py           # ffmpeg burn-in
-├── SUBTITLE_DESIGN_GUIDE.md # 자막 하드코딩 ffmpeg/ASS 스타일 가이드
+├── SUBTITLE_DESIGN_GUIDE.md # 자막 하드코딩 스타일 가이드
 └── .claude/
     ├── hooks/              # Claude Code Hooks
     │   ├── codex-review.sh     # 커밋 시 코드 리뷰
