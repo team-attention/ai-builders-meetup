@@ -84,6 +84,11 @@ arguments:
 └────────┬────────┘  [항상 실행]
          ▼
 ┌─────────────────┐
+│ subtitle-       │  QA 결과 반영 (3차 교정)
+│ corrector (3차) │  → _corrected.srt 갱신
+└────────┬────────┘  [항상 실행]
+         ▼
+┌─────────────────┐
 │ 통합 보고서     │  각 단계 결과 수집
 │ 생성            │  → _report.md
 └────────┬────────┘
@@ -100,10 +105,10 @@ arguments:
 
 | 조건 | 필수 실행 단계 |
 |------|---------------|
-| video O, reference O | 0.5 → 1 → 2 → 3 → 4 → 4.1 → 4.5 → 5 (전체) |
-| video O, reference X | 0.5 → 1 → 2 → 4.5 → 5 |
-| srt O, reference O | 2 → 3 → 4 → 4.1 → 4.5 → 5 |
-| srt O, reference X | 2 → 4.5 → 5 |
+| video O, reference O | 0.5 → 1 → 2 → 3 → 4 → 4.1 → 4.5 → 4.6 → 5 (전체) |
+| video O, reference X | 0.5 → 1 → 2 → 4.5 → 4.6 → 5 |
+| srt O, reference O | 2 → 3 → 4 → 4.1 → 4.5 → 4.6 → 5 |
+| srt O, reference X | 2 → 4.5 → 4.6 → 5 |
 
 **각 단계 완료 시 결과를 표시하고, 허락 없이 바로 다음 단계 진행.**
 
@@ -117,6 +122,7 @@ arguments:
 - [ ] Step 4 (validator) 완료 - reference 있을 때
 - [ ] Step 4.1 (corrector 2차) 완료 - reference 있을 때
 - [ ] Step 4.5 (qa) 완료 - **항상 실행**
+- [ ] Step 4.6 (corrector 3차) 완료 - **항상 실행**
 - [ ] Step 5 (보고서) 완료
 
 ## 실행 단계
@@ -244,6 +250,22 @@ Prompt: |
 **검증 방식:**
 - Claude 1차 검증 → Codex CLI 2차 검증 → 결과 통합
 
+**완료 후**: 즉시 Step 4.6 (corrector 3차) 실행.
+
+### Step 4.6: 3차 교정 (subtitle-corrector) - 항상 실행
+
+QA 검증 결과를 반영하여 최종 교정 수행:
+
+```
+Task: video-subtitle:subtitle-corrector
+Prompt: |
+  QA 검증에서 발견된 이슈를 반영해주세요.
+  - srt_path: {output_from_step4.1 또는 step2}
+  - qa_suggestions: {qa_output}
+```
+
+출력: `{basename}_corrected.srt` (최종 갱신)
+
 **완료 후**: 즉시 Step 5 (통합 보고서 생성) 실행.
 
 ### Step 5: 통합 보고서 생성
@@ -323,6 +345,9 @@ Write: {basename}_report.md
 - Claude 발견: 3개, Codex 발견: 2개
 - 문맥 이상: 1개, 짧은 자막: 2개, 언어 품질: 2개
 - 품질 점수: 8/10
+
+### 4.6. 3차 교정 (항상 실행)
+- QA 이슈 반영: 5개 수정
 
 ### 5. 통합 보고서 생성
 - 보고서: meetup_02_서진님_report.md

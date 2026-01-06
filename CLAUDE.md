@@ -135,7 +135,7 @@ ai-builders-meetup/
   - `--video`: 영상 파일 경로 (새로 생성시)
   - `--srt`: 기존 자막 파일 경로 (정리/교정부터 시작시)
   - `--reference`: 발표자료 PDF (교정/검증용)
-  - 워크플로우: generator → cleaner → corrector → validator → qa
+  - 워크플로우: generator → cleaner → corrector → validator → corrector(2차) → qa → corrector(3차)
 - `/finalize` - 업로드 준비물 완성 (영어 번역 + 자막 번인 병렬 실행)
   - `--srt`: 교정된 SRT 파일 경로 (미지정 시 corrected/ 목록에서 선택)
   - 워크플로우: translator + burnin (병렬)
