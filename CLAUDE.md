@@ -1,5 +1,15 @@
 # AI Builders Meetup
 
+## Git 커밋 규칙
+
+커밋 메시지 작성 시 다음 footer는 **절대 추가하지 않습니다**:
+- `🤖 Generated with [Claude Code]` 또는 유사한 자동 생성 표시
+- `Co-Authored-By: Claude` 또는 유사한 공동 저자 표시
+
+커밋 메시지는 conventional commit 형식을 따르며, 본문만 작성합니다.
+
+---
+
 ## 현재 작업 계획: 영상 자막 생성
 
 ### 요구사항
@@ -46,7 +56,7 @@
 source .venv/bin/activate
 
 # 자막 생성 (openai-whisper 사용)
-python generate_subtitle.py "2-echo-delta/videos/{영상파일}.mov"
+python scripts/subtitle/generate.py "2-echo-delta/videos/{영상파일}.mov"
 
 
 ### 환경 설정
@@ -68,7 +78,7 @@ python generate_subtitle.py "2-echo-delta/videos/{영상파일}.mov"
 2. **처리 시간**: 10분 영상당 약 15-20분 소요 (large-v3 모델)
 3. **메모리**: large-v3 모델은 약 10GB VRAM 필요
 4. **다음 단계**:
-   - `subtitle_cleaner.py`로 중복/hallucination 제거
+   - `scripts/subtitle/cleaner.py`로 중복/hallucination 제거
    - PDF 참조하여 전문용어 교정
 
 ---
@@ -81,9 +91,14 @@ ai-builders-meetup/
 │   ├── slides/             # 발표자료 PDF
 │   ├── videos/             # 영상 파일 및 SRT 자막
 │   └── speakers/           # 스피커 정보
-├── .venv/                  # Python 가상환경
-├── generate_subtitle.py    # 자막 생성 스크립트
-├── subtitle_cleaner.py     # 자막 정리 스크립트
+├── scripts/
+│   └── subtitle/           # 자막 관련 스크립트
+│       ├── generate.py         # Whisper로 자막 생성
+│       ├── generate_api.py     # OpenAI API로 자막 생성
+│       ├── generate_full.py    # 전체 파이프라인
+│       ├── cleaner.py          # 중복/hallucination 제거
+│       ├── corrector.py        # 전문용어 교정
+│       └── burnin.py           # ffmpeg burn-in
 ├── SUBTITLE_DESIGN_GUIDE.md # 자막 하드코딩 ffmpeg/ASS 스타일 가이드
 └── .claude/
     └── skills/             # Claude Code Skills
