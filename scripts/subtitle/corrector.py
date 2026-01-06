@@ -7,6 +7,7 @@ Customized for 건호님's AX/B2B presentation
 import sys
 import os
 import re
+import unicodedata
 
 def parse_srt(content):
     """Parse SRT content into list of segments"""
@@ -125,6 +126,8 @@ def correct_terminology(segments, corrections):
     """Apply terminology corrections to segments"""
     corrected_segments = []
     correction_count = 0
+    duplicate_count = 0
+    prev_text = ""
 
     for seg in segments:
         text = seg['text']
@@ -140,13 +143,22 @@ def correct_terminology(segments, corrections):
         if text != original_text:
             correction_count += 1
 
+        # 유니코드 정규화 후 연속 중복 체크
+        normalized_text = unicodedata.normalize('NFC', text.strip())
+        normalized_prev = unicodedata.normalize('NFC', prev_text.strip())
+
+        if normalized_text == normalized_prev:
+            duplicate_count += 1
+            continue  # 연속 중복 스킵
+
         corrected_segments.append({
             'index': seg['index'],
             'timestamp': seg['timestamp'],
             'text': text
         })
+        prev_text = text
 
-    return corrected_segments, correction_count
+    return corrected_segments, correction_count, duplicate_count
 
 def write_srt(segments, output_path):
     """Write segments to SRT file"""
@@ -192,13 +204,15 @@ def main():
     corrections = extract_keywords_from_pdf(pdf_path) if pdf_path else {}
 
     # Apply corrections
-    corrected_segments, correction_count = correct_terminology(segments, corrections)
+    corrected_segments, correction_count, duplicate_count = correct_terminology(segments, corrections)
 
     # Write corrected SRT
     write_srt(corrected_segments, output_path)
 
     print()
     print(f"Corrections applied: {correction_count} segments modified")
+    if duplicate_count > 0:
+        print(f"Duplicates removed: {duplicate_count} consecutive duplicate segments")
     print(f"Output written to: {output_path}")
     print()
     print("=" * 70)
