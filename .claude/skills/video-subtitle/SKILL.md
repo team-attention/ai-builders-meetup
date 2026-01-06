@@ -4,10 +4,14 @@ description: |
   동영상에서 자막을 자동 생성하고 발표자료 기반으로 교정하는 스킬.
   "자막 생성", "영상 자막", "STT", "subtitle" 요청에 사용.
   mlx-whisper로 추출 → 중복 정리 → 발표자료 기반 교정까지 자동화.
+  기존 SRT 파일이 있으면 생성 단계를 스킵하고 정리/교정부터 시작 가능.
 arguments:
   - name: video
-    description: 동영상 파일 경로
-    required: true
+    description: 동영상 파일 경로 (srt가 없을 때 필수)
+    required: false
+  - name: srt
+    description: 기존 자막 파일 경로 (있으면 생성 단계 스킵)
+    required: false
   - name: reference
     description: 발표자료(PDF) 경로 (선택, 교정 시 필요)
     required: false
@@ -16,28 +20,38 @@ arguments:
 # Video Subtitle Generator
 
 동영상에서 자막을 생성하고 발표자료 기반으로 교정하는 스킬.
+기존 SRT 파일이 있으면 정리/교정 단계부터 시작할 수 있음.
 
 ## 사용법
 
 ```bash
-# 자막만 생성
+# 영상에서 자막 생성
 /video-subtitle --video /path/to/video.mp4
 
-# 자막 생성 + 발표자료 기반 교정
+# 영상에서 자막 생성 + 발표자료 기반 교정
 /video-subtitle --video /path/to/video.mp4 --reference /path/to/slides.pdf
+
+# 기존 자막 파일 정리/교정 (생성 단계 스킵)
+/video-subtitle --srt /path/to/existing.srt
+
+# 기존 자막 + 발표자료 기반 교정
+/video-subtitle --srt /path/to/existing.srt --reference /path/to/slides.pdf
 ```
 
 ## 워크플로우
 
 ```
-┌─────────────────┐
-│  동영상 입력    │
-└────────┬────────┘
+┌─────────────────────────────────────────────────────┐
+│                    입력 확인                         │
+│  video만 → 전체 워크플로우                           │
+│  srt만   → Step 2부터 시작                          │
+│  둘 다 없음 → 사용자에게 질문                        │
+└────────┬────────────────────────────────────────────┘
          ▼
 ┌─────────────────┐
 │ subtitle-       │  mlx-whisper (large-v3)
 │ generator       │  → SRT 파일 생성
-└────────┬────────┘
+└────────┬────────┘  [video 있을 때만]
          ▼
 ┌─────────────────┐
 │ subtitle-       │  중복/hallucination 제거
@@ -47,7 +61,7 @@ arguments:
 ┌─────────────────┐
 │ subtitle-       │  발표자료 기반 STT 오류 교정
 │ corrector       │  → 최종 SRT
-└────────┬────────┘  (reference 있을 때만)
+└────────┬────────┘  [reference 있을 때만]
          ▼
 ┌─────────────────┐
 │  최종 자막      │

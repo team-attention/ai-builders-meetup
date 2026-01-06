@@ -1,0 +1,352 @@
+{
+  "validation_info": {
+    "srt_file": "/home/junchan/github/ai-builders-meetup/2-echo-delta/videos/meetup_02_서진님_cropped.srt",
+    "reference_file": "/home/junchan/github/ai-builders-meetup/2-echo-delta/slides/1-김서진-[251230] AI-Native Company.pdf",
+    "validated_at": "2026-01-05T13:39:06+09:00",
+    "validator_version": "1.0"
+  },
+  "summary": {
+    "total_issues": 21,
+    "by_severity": {
+      "high": 4,
+      "medium": 12,
+      "low": 5
+    },
+    "by_type": {
+      "terminology": 5,
+      "number": 1,
+      "proper_noun": 3,
+      "english_original": 12
+    }
+  },
+  "terms_from_reference": {
+    "english": [
+      "AI-Native",
+      "AI-Assisted",
+      "AI Agents",
+      "Backend",
+      "Frontend",
+      "Designers",
+      "Devops",
+      "Orchestrator",
+      "Workflow",
+      "Agent Council",
+      "Skill",
+      "Claude CLI",
+      "Spec-Driven Development",
+      "Gate Based Evaluation",
+      "Workflow Structuring",
+      "System Over Framework",
+      "Variation",
+      "Feedback Loop",
+      "AI Reviewer",
+      "Token",
+      "Internal",
+      "Implementation",
+      "Planner",
+      "Implementer",
+      "Tester",
+      "Verifier",
+      "Design System",
+      "UI Designer",
+      "Technical Council"
+    ],
+    "proper_nouns": [
+      "AI-Native Company",
+      "AI-Native Builders",
+      "AI-Native Marketers",
+      "Claude CLI",
+      "Cleansing Balm"
+    ],
+    "numbers": [
+      "22개 Agents",
+      "50+ Workflow",
+      "90분 (총 소요시간)",
+      "40일",
+      "4.46B Token (44억 토큰)",
+      "8,993,963줄",
+      "30개 서비스",
+      "1분에 60개 Variation",
+      "48시간에 100개",
+      "4주동안 30번",
+      "1200만원",
+      "$200+"
+    ],
+    "technical": [
+      "Orchestrator",
+      "Agent Council",
+      "Workflow",
+      "Backend",
+      "Frontend",
+      "Implementation",
+      "LLM",
+      "MCP"
+    ]
+  },
+  "issues": [
+    {
+      "id": 1,
+      "segment_number": 2,
+      "timestamp": "00:00:11,400 --> 00:00:19,320",
+      "type": "terminology",
+      "severity": "high",
+      "current_text": "AI 네이티브 구역이란 무엇인가",
+      "suggested_text": "AI-Native란 무엇인가",
+      "reference_evidence": "슬라이드 p.2: 'AI-Native란 무엇일까요?'",
+      "confidence": 0.95,
+      "reason": "'구역'은 오인식으로 보임. 발표자료에서 'AI-Native'라는 영어 용어 사용"
+    },
+    {
+      "id": 2,
+      "segment_number": 5,
+      "timestamp": "00:00:41,320 --> 00:00:49,299",
+      "type": "english_original",
+      "severity": "medium",
+      "current_text": "백엔드 엔지니어, 프론트엔드 엔지니어, 데브옵스",
+      "suggested_text": "Backend 엔지니어, Frontend 엔지니어, DevOps",
+      "reference_evidence": "슬라이드 p.3: 'Backend Frontend Designers Devops'",
+      "confidence": 0.95,
+      "reason": "발표자료에 영어로 명시된 기술 역할명. 영어 원어 표기 권장"
+    },
+    {
+      "id": 3,
+      "segment_number": 6,
+      "timestamp": "00:00:49,299 --> 00:00:56,019",
+      "type": "english_original",
+      "severity": "high",
+      "current_text": "오케스트레이터가 있고 백엔드 역할을 하는 AI와 프론트엔드 역할을 하는 AI",
+      "suggested_text": "Orchestrator가 있고 Backend 역할을 하는 AI와 Frontend 역할을 하는 AI",
+      "reference_evidence": "슬라이드 p.3, p.4: 'Orchestrator', 'Backend', 'Frontend'",
+      "confidence": 0.98,
+      "reason": "핵심 용어. 발표자료에 영어로 명시됨"
+    },
+    {
+      "id": 4,
+      "segment_number": 7,
+      "timestamp": "00:00:56,019 --> 00:01:05,280",
+      "type": "english_original",
+      "severity": "medium",
+      "current_text": "정해진 워크플로우를 수행하면서",
+      "suggested_text": "정해진 Workflow를 수행하면서",
+      "reference_evidence": "슬라이드 p.4: '50+의 Workflow를 실행합니다'",
+      "confidence": 0.95,
+      "reason": "발표자료에서 'Workflow' 영어 표기 사용"
+    },
+    {
+      "id": 5,
+      "segment_number": 11,
+      "timestamp": "00:01:25,840 --> 00:01:34,439",
+      "type": "english_original",
+      "severity": "high",
+      "current_text": "오케스트레이터가 22개의 에이전트와 50개의 워크플로우를 실행",
+      "suggested_text": "Orchestrator가 22개의 Agent와 50+의 Workflow를 실행",
+      "reference_evidence": "슬라이드 p.4: 'Orchestrator가 22개의 Agents와 50+의 Workflow를 실행합니다'",
+      "confidence": 0.99,
+      "reason": "발표자료와 일치하는 핵심 문장. 모든 용어를 영어 원어로 변환 권장"
+    },
+    {
+      "id": 6,
+      "segment_number": 13,
+      "timestamp": "00:01:40,719 --> 00:01:45,819",
+      "type": "proper_noun",
+      "severity": "medium",
+      "current_text": "팀어텐션에서 만든 에이전트 카운실",
+      "suggested_text": "Team Attention에서 만든 Agent Council",
+      "reference_evidence": "슬라이드 p.4: 'Agent Council', 회사명: Team Attention",
+      "confidence": 0.98,
+      "reason": "'팀어텐션'은 회사명 'Team Attention'의 음차. 'Agent Council'은 공식 용어"
+    },
+    {
+      "id": 7,
+      "segment_number": 15,
+      "timestamp": "00:01:48,780 --> 00:01:53,519",
+      "type": "terminology",
+      "severity": "low",
+      "current_text": "에이전트 카운슬들이",
+      "suggested_text": "Agent Council들이",
+      "reference_evidence": "슬라이드 p.4: 'Agent Council'",
+      "confidence": 0.9,
+      "reason": "'카운슬'/'카운실' 표기 불일치. 'Agent Council' 영어 표기로 통일 권장"
+    },
+    {
+      "id": 8,
+      "segment_number": 17,
+      "timestamp": "00:01:57,260 --> 00:02:04,219",
+      "type": "english_original",
+      "severity": "medium",
+      "current_text": "오케스트레이터가 에이전트와 스킬을 실행",
+      "suggested_text": "Orchestrator가 Agent와 Skill을 실행",
+      "reference_evidence": "슬라이드 p.4: '3. Agent와 Skill을 실행합니다'",
+      "confidence": 0.98,
+      "reason": "발표자료에서 영어 표기 사용"
+    },
+    {
+      "id": 9,
+      "segment_number": 19,
+      "timestamp": "00:02:09,020 --> 00:02:15,780",
+      "type": "proper_noun",
+      "severity": "medium",
+      "current_text": "AI 네이티브 빌더스가 있고 AI 네이티브 마케터스",
+      "suggested_text": "AI-Native Builders가 있고 AI-Native Marketers",
+      "reference_evidence": "슬라이드 p.5: 'AI-Native Builders', 'AI-Native Marketers'",
+      "confidence": 0.98,
+      "reason": "공식 팀 명칭으로 영어 표기 권장 (하이픈 포함)"
+    },
+    {
+      "id": 10,
+      "segment_number": 23,
+      "timestamp": "00:02:26,780 --> 00:02:38,780",
+      "type": "proper_noun",
+      "severity": "medium",
+      "current_text": "AI 네이티브 빌더스라는 개발팀과 AI 네이티브라는 마케터스",
+      "suggested_text": "AI-Native Builders라는 개발팀과 AI-Native Marketers",
+      "reference_evidence": "슬라이드 p.5: 'AI-Native Builders', 'AI-Native Marketers'",
+      "confidence": 0.98,
+      "reason": "고유명사 일관성 유지"
+    },
+    {
+      "id": 11,
+      "segment_number": 24,
+      "timestamp": "00:02:38,780 --> 00:02:44,780",
+      "type": "terminology",
+      "severity": "low",
+      "current_text": "AI 네이티브 빌더스를",
+      "suggested_text": "AI-Native Builders를",
+      "reference_evidence": "슬라이드 p.5, p.6: 'AI-Native Builders'",
+      "confidence": 0.98,
+      "reason": "고유명사 일관성 유지"
+    },
+    {
+      "id": 12,
+      "segment_number": 25,
+      "timestamp": "00:02:44,780 --> 00:02:46,780",
+      "type": "english_original",
+      "severity": "medium",
+      "current_text": "오케스트레이터가",
+      "suggested_text": "Orchestrator가",
+      "reference_evidence": "슬라이드 전반: 'Orchestrator'",
+      "confidence": 0.95,
+      "reason": "핵심 용어 영어 원어 표기"
+    },
+    {
+      "id": 13,
+      "segment_number": 32,
+      "timestamp": "00:03:40,780 --> 00:03:46,780",
+      "type": "english_original",
+      "severity": "medium",
+      "current_text": "테크니컬 디시전이나 아키텍처를 리뷰",
+      "suggested_text": "Technical Decision이나 Architecture Review",
+      "reference_evidence": "슬라이드 p.4, p.6: Technical Council 맥락",
+      "confidence": 0.85,
+      "reason": "기술 용어 영어 원어 표기 권장"
+    },
+    {
+      "id": 14,
+      "segment_number": 33,
+      "timestamp": "00:03:46,780 --> 00:03:49,780",
+      "type": "english_original",
+      "severity": "medium",
+      "current_text": "테크니컬 카운슬에서",
+      "suggested_text": "Technical Council에서",
+      "reference_evidence": "슬라이드 p.6: 'Technical Council'",
+      "confidence": 0.95,
+      "reason": "발표자료에서 Technical Council로 표기"
+    },
+    {
+      "id": 15,
+      "segment_number": 41,
+      "timestamp": "00:04:34,779 --> 00:04:44,779",
+      "type": "english_original",
+      "severity": "medium",
+      "current_text": "브랜드 디자인 시스템이라는 스킬을 UI 디자이너가 콜해서 디자인 디시전",
+      "suggested_text": "브랜드 Design System이라는 Skill을 UI Designer가 콜해서 Design Decision",
+      "reference_evidence": "슬라이드 p.4: 'Design System', 'UI Designer'",
+      "confidence": 0.85,
+      "reason": "기술 용어 영어 원어 표기"
+    },
+    {
+      "id": 16,
+      "segment_number": 42,
+      "timestamp": "00:04:44,779 --> 00:04:52,779",
+      "type": "english_original",
+      "severity": "high",
+      "current_text": "임플리멘테이션부터 배포까지 실제로 진행하는데 약 90분",
+      "suggested_text": "Implementation부터 배포까지 실제로 진행하는데 약 90분",
+      "reference_evidence": "슬라이드 p.6: Phase 5 'Implementer', '총 소요시간: 90분'",
+      "confidence": 0.95,
+      "reason": "핵심 기술 용어. 90분 수치는 발표자료와 일치"
+    },
+    {
+      "id": 17,
+      "segment_number": 44,
+      "timestamp": "00:04:57,779 --> 00:05:13,779",
+      "type": "terminology",
+      "severity": "medium",
+      "current_text": "CS146S을 한국어 버전으로",
+      "suggested_text": "[강의명 확인 필요] 한국어 버전으로",
+      "reference_evidence": "발표자료에 정확한 강의명 미기재",
+      "confidence": 0.6,
+      "reason": "CS146S이 정확한 강의명인지 확인 필요 (CS229, CS231n 등 유사 강의 존재)"
+    },
+    {
+      "id": 18,
+      "segment_number": 54,
+      "timestamp": "00:06:19,779 --> 00:06:24,779",
+      "type": "terminology",
+      "severity": "high",
+      "current_text": "스펙 드리븐 디벨로만트",
+      "suggested_text": "Spec-Driven Development",
+      "reference_evidence": "슬라이드 p.7: '스펙 주도 개발 (Spec-Driven Development)'",
+      "confidence": 0.99,
+      "reason": "핵심 개념으로 발표자료에서 영어 원어 표기 명시. '디벨로만트'는 발음 오류"
+    },
+    {
+      "id": 19,
+      "segment_number": 67,
+      "timestamp": "00:08:13,779 --> 00:08:19,779",
+      "type": "english_original",
+      "severity": "low",
+      "current_text": "배리에이션을 만들고",
+      "suggested_text": "Variation을 만들고",
+      "reference_evidence": "슬라이드 p.8,9: 'Variation'",
+      "confidence": 0.9,
+      "reason": "발표자료에서 영어 표기 사용"
+    },
+    {
+      "id": 20,
+      "segment_number": 70,
+      "timestamp": "00:08:26,779 --> 00:08:29,779",
+      "type": "english_original",
+      "severity": "low",
+      "current_text": "마케팅 퍼포먼스 워크플로우",
+      "suggested_text": "마케팅 퍼포먼스 Workflow",
+      "reference_evidence": "슬라이드 전반: 'Workflow'",
+      "confidence": 0.85,
+      "reason": "용어 일관성 유지"
+    },
+    {
+      "id": 21,
+      "segment_number": 75,
+      "timestamp": "00:09:08,779 --> 00:09:14,459",
+      "type": "number",
+      "severity": "low",
+      "current_text": "한 44억 토큰 정도로 30개 정도 서비스",
+      "suggested_text": "약 44억 토큰(4.46B Token)으로 30개 서비스",
+      "reference_evidence": "슬라이드 p.10: '사용한 토큰: 4.46B Token (44억 토큰)', '생성한 서비스: 30개'",
+      "confidence": 0.95,
+      "reason": "발표자료의 정확한 수치와 일치 확인됨"
+    }
+  ],
+  "validated_segments": {
+    "total": 81,
+    "with_issues": 21,
+    "clean": 60
+  },
+  "verified_terms": [
+    {"term": "44억 토큰", "segment": 75, "matches_reference": true, "reference": "4.46B Token (44억 토큰)"},
+    {"term": "90분", "segment": 42, "matches_reference": true, "reference": "총 소요시간: 90분"},
+    {"term": "30개 서비스", "segment": 75, "matches_reference": true, "reference": "생성한 서비스: 30개"},
+    {"term": "22개의 에이전트", "segment": 11, "matches_reference": true, "suggested_english": "22개의 Agent"},
+    {"term": "50개의 워크플로우", "segment": 11, "matches_reference": true, "note": "발표자료는 '50+'로 표기"}
+  ]
+}
