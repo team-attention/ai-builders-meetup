@@ -21,7 +21,7 @@ Prompt parameters:
 
 ## Style
 
-See `scripts/subtitle/STYLE_GUIDE.md` for full specifications.
+See `.claude/skills/video-subtitle/scripts/STYLE_GUIDE.md` for full specifications.
 
 - Font: Noto Sans CJK KR (38px at 1080p, scales with resolution)
 - Alignment: bottom-center
@@ -32,7 +32,7 @@ See `scripts/subtitle/STYLE_GUIDE.md` for full specifications.
 
 ## Execution
 
-**IMPORTANT**: Always use `scripts/subtitle/burnin.py` script. Do not write inline code.
+**IMPORTANT**: Always use `.claude/skills/video-subtitle/scripts/burnin.py` script. Do not write inline code.
 
 ### 1. Verify files
 
@@ -43,7 +43,7 @@ ls -lh "{video_path}" "{srt_path}"
 ### 2. Run burnin.py
 
 ```bash
-python scripts/subtitle/burnin.py "{video_path}" "{srt_path}"
+python .claude/skills/video-subtitle/scripts/burnin.py "{video_path}" "{srt_path}"
 ```
 
 The script automatically:
@@ -55,7 +55,7 @@ The script automatically:
 ### 3. Optional: specify output path
 
 ```bash
-python scripts/subtitle/burnin.py "{video_path}" "{srt_path}" "{output_path}"
+python .claude/skills/video-subtitle/scripts/burnin.py "{video_path}" "{srt_path}" "{output_path}"
 ```
 
 ## Output Format

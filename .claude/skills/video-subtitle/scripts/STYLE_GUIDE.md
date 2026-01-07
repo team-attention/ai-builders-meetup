@@ -20,7 +20,7 @@ Burn Korean subtitles into video using ffmpeg drawtext filter with single unifie
 ### Script
 
 ```bash
-python scripts/subtitle/burnin.py <video_path> <srt_path> [output_path]
+python .claude/skills/video-subtitle/scripts/burnin.py <video_path> <srt_path> [output_path]
 ```
 
 ### How it works

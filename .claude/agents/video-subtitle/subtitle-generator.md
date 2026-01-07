@@ -79,7 +79,7 @@ print(f"총 {len(result['segments'])}개 세그먼트")
 ```bash
 # venv 활성화 후 스크립트 실행
 source .venv/bin/activate
-python scripts/subtitle/generate.py "{video_path}"
+python .claude/skills/video-subtitle/scripts/generate.py "{video_path}"
 ```
 
 출력 파일: `subtitles/raw/{video_basename}.srt` (영상 디렉토리 기준)
@@ -89,7 +89,7 @@ python scripts/subtitle/generate.py "{video_path}"
 ```bash
 # .env 파일에서 OPENAI_API_KEY 자동 로드됨
 source .venv/bin/activate
-python scripts/subtitle/generate_api.py "{video_path}"
+python .claude/skills/video-subtitle/scripts/generate_api.py "{video_path}"
 ```
 
 출력 파일: `subtitles/raw/{video_basename}.srt` (영상 디렉토리 기준)

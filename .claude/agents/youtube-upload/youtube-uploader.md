@@ -26,7 +26,7 @@ color: green
 ### 1. 사전 확인
 
 ```bash
-python scripts/youtube/auth.py --check
+python .claude/skills/youtube-upload/scripts/auth.py --check
 ```
 
 실패 시 인증 안내 메시지 출력:
@@ -39,7 +39,7 @@ YouTube API 인증이 필요합니다.
 2. 다운로드한 client_secrets.json을 프로젝트 루트에 저장
 
 3. 인증 실행:
-   python scripts/youtube/auth.py
+   python .claude/skills/youtube-upload/scripts/auth.py
 
 4. 브라우저에서 계정 선택 및 권한 허용
 ```
@@ -47,7 +47,7 @@ YouTube API 인증이 필요합니다.
 ### 2. 영상 업로드
 
 ```bash
-python scripts/youtube/upload.py \
+python .claude/skills/youtube-upload/scripts/upload.py \
   --video "{video_path}" \
   --title "{title}" \
   --description "{description}" \
@@ -61,7 +61,7 @@ python scripts/youtube/upload.py \
 `subtitle_path`가 있으면:
 
 ```bash
-python scripts/youtube/captions.py \
+python .claude/skills/youtube-upload/scripts/captions.py \
   --video-id {video_id} \
   --file "{subtitle_path}" \
   --language en \

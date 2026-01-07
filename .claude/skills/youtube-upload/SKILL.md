@@ -93,7 +93,7 @@ arguments:
 OAuth 토큰 파일 존재 확인:
 
 ```bash
-python scripts/youtube/auth.py --check
+python .claude/skills/youtube-upload/scripts/auth.py --check
 ```
 
 토큰 없으면 인증 안내:
@@ -106,7 +106,7 @@ YouTube API 인증이 필요합니다.
 2. 다운로드한 client_secrets.json을 프로젝트 루트에 저장
 
 3. 인증 실행:
-   python scripts/youtube/auth.py
+   python .claude/skills/youtube-upload/scripts/auth.py
 
 4. 브라우저에서 계정 선택 및 권한 허용
 ```
@@ -260,7 +260,7 @@ pip install google-api-python-client google-auth-oauthlib google-auth-httplib2
 ### 5. 인증 실행
 
 ```bash
-python scripts/youtube/auth.py
+python .claude/skills/youtube-upload/scripts/auth.py
 ```
 
 브라우저에서 계정 선택 및 권한 허용 → `.youtube_token.json` 자동 생성
