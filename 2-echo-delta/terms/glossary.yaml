@@ -1,0 +1,99 @@
+# 통합 용어집 - 패널 토론 자막 교정용
+# 4개의 corrected SRT에서 추출한 용어 + 공통 AI 용어
+
+metadata:
+  version: "1.0"
+  created: "2026-01-06"
+  description: "AI Builders Meetup 2회차 패널 토론용 용어집"
+  sources:
+    - meetup_02_건호님_corrected.srt
+    - meetup_02_동훈님_corrected.srt
+    - meetup_02_동운님_corrected.srt
+    - meetup_02_서진님_corrected.srt
+
+# 발표자 이름 (올바른 표기: [잘못된 STT 패턴들])
+speakers:
+  김서진: [김 서진, 김서 진]
+  이동훈: [이 동훈, 이동 훈]
+  최동운: [최 동운, 최동 운]
+  신건호: [신 건호, 신건 호]
+  정구봉: [정 구봉, 정구 봉]
+  콜린: [코린, 콜인]
+
+# 회사명
+companies:
+  마이리얼트립: [마이 리얼트립, 마이리얼 트립]
+  삼양식품: [삼양 식품, 삼양식 품]
+  DAY1COMPANY: [데이원컴퍼니, 데이 원 컴퍼니, 데이1컴퍼니]
+  불닭: [불 닭]
+  KAIST: [카이스트, 카 이스트]
+  Anthropic: [앤트로픽, 안트로픽, 엔트로픽]
+
+# AI/ML 용어
+ai_terms:
+  AI: [에이아이, 에이 아이]
+  Agent: [에이전트, 에이 전트]
+  MCP: [엠씨피, 엠 씨 피]
+  RAG: [래그, 랙, 알에이지]
+  LLM: [엘엘엠, 엘 엘 엠]
+  GPT: [지피티, 지 피 티]
+  Claude: [클로드, 클로우드]
+  Claude Code: [클로드 코드, 클로드코드, 크로드 코드, 크로드코드, 클럽코드, Claude 코드]
+  ChatGPT: [챗지피티, 챗 지피티]
+  Cursor: [커서]
+  n8n: [엔에잇엔, 엔8엔, 엠파렛, M8n]
+  Workflow: [워크플로우, 워크 플로우, 워크플로]
+  Orchestrator: [오케스트레이터, 오케스트 레이터]
+  Prompt: [프롬프트, 프롬프]
+  Embedding: [임베딩, 엠베딩]
+  Fine-tuning: [파인튜닝, 파인 튜닝]
+  Token: [토큰]
+  AI-Native: [에이아이 네이티브, 에이아이네이티브]
+  AI Literacy: [에이아이 리터러시]
+  LangChain: [랭체인, 랭 체인]
+  LangGraph: [랭그래프, 랭 그래프]
+  Gemini: [재미나이, 재미나인]
+  Codex: [코덱스]
+  Meetup: [미드업]
+
+# 기술 용어
+tech_terms:
+  Backend: [백엔드, 밴드, 세겐트]
+  Frontend: [프론트엔드, 프론트 엔드]
+  DevOps: [데브옵스, 대부옵터]
+  CI/CD: [씨아이씨디, 씨아이 씨디]
+  API: [에이피아이, 에피아이]
+  SDK: [에스디케이, 에스디 케이]
+  Agent Council: [에이전트 카운슬, 에이전트카운슬]
+  GitHub: [깃허브, 깁터블]
+  Python: [파이썬, 파이선]
+  TypeScript: [타입스크립트, 타입 스크립트]
+  Node.js: [노드제이에스]
+  Figma: [피그마]
+  Notion: [노션]
+  Jira: [지라]
+  Google Sheets: [구글 시트, 구글시트]
+  NotebookLM: [노트북엘엠, 노트북 엘엠]
+
+# 비즈니스 용어
+business_terms:
+  MVP: [엠브이피, 엠 브이 피]
+  PoC: [포씨, 피오씨, 피오 씨]
+  ROI: [알오아이, 알 오 아이]
+  KPI: [케이피아이, 케이 피 아이]
+  PMF: [피엠에프, 피 엠 에프]
+  GTM: [지티엠, 지 티 엠]
+  SaaS: [사스, 싸스]
+  B2B: [비투비, 비 투 비]
+  E2E: [이투이, 이 투 이]
+  End-to-End: [엔드 투 엔드, 엔드투엔드]
+  Full-Stack: [풀스택, 풀 스택]
+  PO: [피오, 피 오]
+  PM: [피엠, 피 엠]
+
+# 자주 틀리는 발음
+common_errors:
+  궁극적으로: [공급적으로]
+  암묵지: [암무지]
+  체리픽: [체리틱]
+  시맨틱: [시매틱]

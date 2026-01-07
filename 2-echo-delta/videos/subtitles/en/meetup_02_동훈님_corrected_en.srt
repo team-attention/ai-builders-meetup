@@ -1,0 +1,936 @@
+1
+00:00:00,000 --> 00:00:04,000
+Hello
+
+2
+00:00:08,000 --> 00:00:16,000
+Yes, I'm a bit nervous. I'm Donghoon Lee, leading the AI Lab team at Myrealtrip.
+
+3
+00:00:20,000 --> 00:00:26,000
+Let me briefly introduce myself. I was an engineer
+
+4
+00:00:28,000 --> 00:00:36,000
+I was an infrastructure engineer. I wrote 10 years, but it wasn't quite 10 years. For the past 7 years, I worked on monitoring
+
+5
+00:00:36,000 --> 00:00:44,000
+systems, CI/CD, container environments, and various tasks like DevOps, DBA, SRE
+
+6
+00:00:44,000 --> 00:00:48,000
+I did all sorts of things. I was basically a jack-of-all-trades.
+
+7
+00:00:48,000 --> 00:00:56,000
+But as I watched my seniors doing the same work, I really felt
+
+8
+00:00:56,000 --> 00:00:58,000
+Why do we keep reinventing the wheel when it already exists in the market?
+
+9
+00:00:58,000 --> 00:01:04,000
+They kept reinventing the wheel and then got crushed by it and quit.
+
+10
+00:01:04,000 --> 00:01:10,000
+So I felt very strongly in the company that I shouldn't be like that.
+
+11
+00:01:10,000 --> 00:01:18,000
+There are so many things already available in the market. I just need to assemble them. I decided not to become an inventor.
+
+12
+00:01:18,000 --> 00:01:20,000
+I think I started thinking that way back then.
+
+13
+00:01:20,000 --> 00:01:28,000
+Then I encountered GPT-3, and I think I was thinking a lot like this at that time.
+
+14
+00:01:28,000 --> 00:01:30,000
+It was about 2 years ago.
+
+15
+00:01:30,000 --> 00:01:38,000
+Back then, our platform team of about 6 people was serving about 1,000
+
+16
+00:01:38,000 --> 00:01:40,000
+engineers.
+
+17
+00:01:40,000 --> 00:01:48,000
+That's really tough. Developing software and maintaining systems is already hard, but
+
+18
+00:01:48,000 --> 00:01:52,000
+we had to handle all kinds of requests.
+
+19
+00:01:52,000 --> 00:02:00,000
+Even though we built the systems, the questions were so diverse
+
+20
+00:02:00,000 --> 00:02:08,000
+and those 1,000 developers were very creative in developing and deploying software.
+
+21
+00:02:08,000 --> 00:02:16,000
+I had to continuously provide guidance for those situations, and even with great documentation
+
+22
+00:02:16,000 --> 00:02:20,000
+it wasn't easy to find and provide the right information.
+
+23
+00:02:20,000 --> 00:02:28,000
+So I couldn't work during the day or evening. I could only work at dawn and on weekends
+
+24
+00:02:28,000 --> 00:02:36,000
+I was thinking about how to solve this, and when I met GPT-3, it felt like I saw the light.
+
+25
+00:02:36,000 --> 00:02:40,000
+That's when RAG existed, so it was a bit like that for me.
+
+26
+00:02:40,000 --> 00:02:48,000
+And so I built several RAG-based chatbots using various internal data sources
+
+27
+00:02:48,000 --> 00:02:56,000
+and based on that, when leadership decided we needed AI transformation
+
+28
+00:02:56,000 --> 00:03:00,000
+I was able to lead this organization.
+
+29
+00:03:00,000 --> 00:03:04,000
+So that's how it happened.
+
+30
+00:03:04,000 --> 00:03:12,000
+We wrote our mission statement like this. Actually, it's not super meaningful.
+
+31
+00:03:12,000 --> 00:03:18,000
+But the most important thing is raising AI literacy for all employees.
+
+32
+00:03:18,000 --> 00:03:26,000
+And I don't think we've reached the red text below yet. I think we're mostly focused on raising literacy.
+
+33
+00:03:26,000 --> 00:03:34,000
+So we're doing these things to raise literacy, though some we're not doing anymore.
+
+34
+00:03:34,000 --> 00:03:38,000
+Mainly, we hold internal case-sharing sessions every week.
+
+35
+00:03:38,000 --> 00:03:46,000
+I'll explain later, but we do weekly presentations in "Everyone AI" sessions.
+
+36
+00:03:46,000 --> 00:03:54,000
+To make that happen, we go hunting for cases every week. When someone uses it well, we share and give awards
+
+37
+00:03:54,000 --> 00:04:02,000
+When there's a team like that, I immediately go interview them, have them present, and give them money. So far
+
+38
+00:04:02,000 --> 00:04:06,000
+we've had over 40 presentations.
+
+39
+00:04:08,000 --> 00:04:12,000
+Some presentations introduced more than two cases.
+
+40
+00:04:12,000 --> 00:04:14,000
+So the number is a bit more than that.
+
+41
+00:04:14,000 --> 00:04:20,000
+And we briefly ran a program called Myrealtrip Kmong.
+
+42
+00:04:20,000 --> 00:04:28,000
+Similar to what we're doing now, like today's presentation topic, we connected people who define problems with people who solve them
+
+43
+00:04:28,000 --> 00:04:36,000
+It was like a matchmaking platform. We launched five projects
+
+44
+00:04:36,000 --> 00:04:40,000
+And lastly, what we're doing now is the AI Champion Training Program.
+
+45
+00:04:40,000 --> 00:04:48,000
+I felt many limitations in connecting core and delta, so now
+
+46
+00:04:48,000 --> 00:04:50,000
+you solve your own problems.
+
+47
+00:04:50,000 --> 00:04:56,000
+And we provide a different level of support than before.
+
+48
+00:04:56,000 --> 00:05:00,000
+I'll explain this more later.
+
+49
+00:05:00,000 --> 00:05:08,000
+So how we've been working and what lessons we learned
+
+50
+00:05:08,000 --> 00:05:10,000
+We've had many failures too.
+
+51
+00:05:10,000 --> 00:05:16,000
+So I'll explain that through about 4 scenes.
+
+52
+00:05:16,000 --> 00:05:24,000
+I've been on this team for 1 year and 1 month now.
+
+53
+00:05:24,000 --> 00:05:30,000
+Last November, I started working concurrently on the SRE team and AI Lab.
+
+54
+00:05:30,000 --> 00:05:36,000
+So I just thought I'd do what I always did - build software and deliver it.
+
+55
+00:05:36,000 --> 00:05:44,000
+I'm a developer, so naturally I learned LangChain and LangGraph, so let me find problems I can solve with this.
+
+56
+00:05:44,000 --> 00:05:48,000
+I approached it quite clumsily.
+
+57
+00:05:48,000 --> 00:05:50,000
+Looking back now.
+
+58
+00:05:50,000 --> 00:05:54,000
+But there were about 5 business divisions at the time.
+
+59
+00:05:54,000 --> 00:06:02,000
+So I met with each division head to listen to their inconveniences and unsolved problems
+
+60
+00:06:02,000 --> 00:06:10,000
+And then we launched three things: a chatbot platform, a keyword extraction engine for SEO, and review translation
+
+61
+00:06:10,000 --> 00:06:16,000
+A review translation system. We launched these 3 and ran them for about 2 months.
+
+62
+00:06:16,000 --> 00:06:20,000
+And then we just threw away all the projects.
+
+63
+00:06:20,000 --> 00:06:28,000
+Threw them in the trash. Actually, even before those 2 months ended, I had a bad feeling
+
+64
+00:06:28,000 --> 00:06:30,000
+about it.
+
+65
+00:06:30,000 --> 00:06:38,000
+For example, with SEO, the marketing team responsible for traffic should obviously have ownership
+
+66
+00:06:38,000 --> 00:06:44,000
+but the marketing team didn't come to me.
+
+67
+00:06:44,000 --> 00:06:46,000
+I'm not sure why that was.
+
+68
+00:06:46,000 --> 00:06:50,000
+So I was working on things that weren't important.
+
+69
+00:06:50,000 --> 00:06:52,000
+From a business perspective.
+
+70
+00:06:52,000 --> 00:07:00,000
+What I want to talk about here is that the counterpart I was working with
+
+71
+00:07:00,000 --> 00:07:08,000
+would meet with me weekly for sync-ups like homework, getting assignments, but it didn't seem important to them and they didn't know
+
+72
+00:07:08,000 --> 00:07:14,000
+what the return would be, so even I could feel it wasn't going well.
+
+73
+00:07:14,000 --> 00:07:22,000
+So I thought I needed to report the situation quickly somehow
+
+74
+00:07:22,000 --> 00:07:30,000
+I wrote very detailed wikis every week about goals and current situation, and kept reporting to my PO and CEO.
+
+75
+00:07:30,000 --> 00:07:38,000
+After doing that for about two months, I think they also realized that this wasn't working.
+
+76
+00:07:38,000 --> 00:07:46,000
+So we decided to set up the roadmap again, and in a way, I could be delta
+
+77
+00:07:46,000 --> 00:07:48,000
+but I couldn't be echo.
+
+78
+00:07:48,000 --> 00:07:54,000
+I'm not someone with great business sense or a strategist.
+
+79
+00:07:54,000 --> 00:07:58,000
+I might be good at implementation. That's what I felt.
+
+80
+00:07:58,000 --> 00:08:06,000
+So let's start from scratch again. Literacy came up again at that time
+
+81
+00:08:06,000 --> 00:08:10,000
+and we decided to pivot to education.
+
+82
+00:08:10,000 --> 00:08:12,000
+It was really confusing.
+
+83
+00:08:14,000 --> 00:08:20,000
+I was a coder, and I didn't think I knew enough to teach anyone.
+
+84
+00:08:20,000 --> 00:08:24,000
+This was around February this year.
+
+85
+00:08:24,000 --> 00:08:30,000
+There was a lot of interest in developing and tuning models.
+
+86
+00:08:30,000 --> 00:08:34,000
+I don't have a machine learning background, so what can I teach?
+
+87
+00:08:34,000 --> 00:08:36,000
+What can I show people?
+
+88
+00:08:36,000 --> 00:08:40,000
+I was in that kind of vague state.
+
+89
+00:08:40,000 --> 00:08:46,000
+But anyway, I couldn't not start.
+
+90
+00:08:46,000 --> 00:08:52,000
+So I decided to just start, and I started with how to use ChatGPT.
+
+91
+00:08:52,000 --> 00:09:00,000
+What I said during that ChatGPT usage session is so embarrassing now
+
+92
+00:09:00,000 --> 00:09:08,000
+When evaluating team members, export all Jira tickets and give them to ChatGPT 3.5
+
+93
+00:09:08,000 --> 00:09:12,000
+and have it summarize what this person did. That level.
+
+94
+00:09:12,000 --> 00:09:20,000
+And small tips like how to write formulas in Google Sheets. I started with those little things.
+
+95
+00:09:20,000 --> 00:09:28,000
+I shared things like that. And at that time, I was
+
+96
+00:09:28,000 --> 00:09:34,000
+deeply interested in developing RAG systems based on AI.
+
+97
+00:09:34,000 --> 00:09:42,000
+Anyway, I was continuously learning about building agent systems, so I thought
+
+98
+00:09:42,000 --> 00:09:48,000
+I should teach some of this too, and I looked for people who could teach it.
+
+99
+00:09:50,000 --> 00:09:58,000
+I even contacted a YouTuber and got quotes, but I couldn't convince management
+
+100
+00:09:58,000 --> 00:10:00,000
+to go that far.
+
+101
+00:10:00,000 --> 00:10:08,000
+In the end, it was really good that case studies had much more power than knowing how-to.
+
+102
+00:10:08,000 --> 00:10:16,000
+Telling my story is good, and when colleagues around me are facing similar problems
+
+103
+00:10:16,000 --> 00:10:24,000
+and solving them, people gain confidence and think "I can do this too"
+
+104
+00:10:24,000 --> 00:10:26,000
+and take on challenges.
+
+105
+00:10:26,000 --> 00:10:34,000
+Seeing that, I was surprised too, and I felt that this was much more effective
+
+106
+00:10:34,000 --> 00:10:40,000
+than taking lectures.
+
+107
+00:10:40,000 --> 00:10:48,000
+That's right. So even though I initially planted a weak idea
+
+108
+00:10:48,000 --> 00:10:56,000
+some people tried first. As I saw these attempts succeed, from that point
+
+109
+00:10:56,000 --> 00:11:04,000
+other people started asking me questions, but not just "I asked ChatGPT and it didn't work"
+
+110
+00:11:04,000 --> 00:11:12,000
+They succeeded at the first step of "I think I can do something"
+
+111
+00:11:12,000 --> 00:11:16,000
+and failed at the second step.
+
+112
+00:11:18,000 --> 00:11:26,000
+So when I showed them methods and they solved it, it gave me much more sense of efficacy
+
+113
+00:11:26,000 --> 00:11:28,000
+I think.
+
+114
+00:11:30,000 --> 00:11:38,000
+After that, this happened. As cases kept being created and shared, at that time
+
+115
+00:11:38,000 --> 00:11:46,000
+what we were mainly doing was developing Chrome extensions or automating operations in Google Apps Script
+
+116
+00:11:46,000 --> 00:11:52,000
+with Google Sheets or Google Docs.
+
+117
+00:11:52,000 --> 00:11:54,000
+As you know, there's not that much you can do.
+
+118
+00:11:56,000 --> 00:12:00,000
+In that situation, people wanted to go further.
+
+119
+00:12:00,000 --> 00:12:08,000
+They wanted to automate the entire workflow, but when they asked ChatGPT, it said "Learn Python, learn TypeScript"
+
+120
+00:12:08,000 --> 00:12:12,000
+"Run Node.js" - people were getting guidance like that.
+
+121
+00:12:12,000 --> 00:12:18,000
+But these non-developers came to me asking "How do I do Python?"
+
+122
+00:12:18,000 --> 00:12:20,000
+"My head is going to explode."
+
+123
+00:12:20,000 --> 00:12:22,000
+"What should I do? Please teach me."
+
+124
+00:12:22,000 --> 00:12:28,000
+These kinds of inquiries started coming in, and I wondered, is it right to make these people do this?
+
+125
+00:12:28,000 --> 00:12:30,000
+What should I do?
+
+126
+00:12:30,000 --> 00:12:36,000
+Just saying "you can do it" didn't seem like enough. I thought about that a lot.
+
+127
+00:12:36,000 --> 00:12:44,000
+So I thought, let's connect them with developers, and that's how
+
+128
+00:12:44,000 --> 00:12:46,000
+Myrealtrip Kmong started.
+
+129
+00:12:46,000 --> 00:12:54,000
+Actually, with Myrealtrip Kmong at first, I approached this work thinking I needed to build a software system
+
+130
+00:12:54,000 --> 00:13:02,000
+and I said I'd do it in a month, but then I wasted a month.
+
+131
+00:13:04,000 --> 00:13:06,000
+That's what happened.
+
+132
+00:13:06,000 --> 00:13:10,000
+I'll explain the lesson a bit more later.
+
+133
+00:13:10,000 --> 00:13:14,000
+But Myrealtrip Kmong launched 5 projects and then we just closed it.
+
+134
+00:13:14,000 --> 00:13:20,000
+Actually, even running Myrealtrip Kmong was really difficult.
+
+135
+00:13:20,000 --> 00:13:28,000
+Because we had to connect business experts with development experts, but developers don't understand the business
+
+136
+00:13:28,000 --> 00:13:36,000
+so they obviously can't solve their problems. To raise their understanding to that level required a lot of interviews and analysis.
+
+137
+00:13:36,000 --> 00:13:44,000
+And this was basically a bidding competition program, so when 2 or more people applied, we had to select one
+
+138
+00:13:44,000 --> 00:13:46,000
+That's how the program was structured.
+
+139
+00:13:46,000 --> 00:13:52,000
+So an unspecified number of people had to understand the business.
+
+140
+00:13:52,000 --> 00:14:00,000
+So I spent almost a week just interviewing and taking screenshots.
+
+141
+00:14:00,000 --> 00:14:08,000
+That was difficult, but the real problem was after all the software was delivered.
+
+142
+00:14:08,000 --> 00:14:12,000
+Maintenance was the issue.
+
+143
+00:14:12,000 --> 00:14:18,000
+These people paid a service fee and received delivered software.
+
+144
+00:14:18,000 --> 00:14:24,000
+In that state, when maintenance issues arose, they couldn't solve them.
+
+145
+00:14:24,000 --> 00:14:28,000
+They don't know Python, so how can they fix a Python program they received?
+
+146
+00:14:28,000 --> 00:14:30,000
+That situation happened.
+
+147
+00:14:30,000 --> 00:14:38,000
+And quite emptily, the developers kept solving those maintenance issues.
+
+148
+00:14:38,000 --> 00:14:40,000
+But they had no motivation at all.
+
+149
+00:14:40,000 --> 00:14:46,000
+They briefly worked on things that didn't align with their goals at all.
+
+150
+00:14:46,000 --> 00:14:50,000
+Actually, the reason they could do it was the prize money.
+
+151
+00:14:50,000 --> 00:14:58,000
+It was all about the prize money, and once the one-time prize was paid, the problem solvers
+
+152
+00:14:58,000 --> 00:15:02,000
+didn't really need to maintain it actively.
+
+153
+00:15:02,000 --> 00:15:04,000
+That's how it was.
+
+154
+00:15:04,000 --> 00:15:12,000
+And as I said, since it wasn't their business or goal, no matter how hard they worked on it
+
+155
+00:15:12,000 --> 00:15:14,000
+it wouldn't reflect in their performance.
+
+156
+00:15:14,000 --> 00:15:18,000
+So I felt again at that time.
+
+157
+00:15:18,000 --> 00:15:20,000
+People must solve their own problems.
+
+158
+00:15:20,000 --> 00:15:28,000
+But thankfully at that time
+
+159
+00:15:28,000 --> 00:15:30,000
+we have a finance and accounting team.
+
+160
+00:15:32,000 --> 00:15:40,000
+The team leader, who had never done software development or engineering
+
+161
+00:15:40,000 --> 00:15:48,000
+built a Qt-based desktop standalone application in Python to automate their work
+
+162
+00:15:48,000 --> 00:15:54,000
+automating Excel manual work.
+
+163
+00:15:54,000 --> 00:16:00,000
+Beyond doing it themselves, they assigned team members "do this, do that" and made them present weekly.
+
+164
+00:16:00,000 --> 00:16:02,000
+I didn't know, actually.
+
+165
+00:16:02,000 --> 00:16:06,000
+That person is now a member of our team.
+
+166
+00:16:08,000 --> 00:16:10,000
+Seeing that gave me courage too.
+
+167
+00:16:10,000 --> 00:16:16,000
+With Cursor's features improving, it became possible.
+
+168
+00:16:16,000 --> 00:16:18,000
+The world was changing so much.
+
+169
+00:16:18,000 --> 00:16:24,000
+So from then on, non-developers can do everything.
+
+170
+00:16:24,000 --> 00:16:32,000
+They can make web services, Chrome extensions, standalone applications - they can make everything
+
+171
+00:16:32,000 --> 00:16:36,000
+I gained that confidence then and closed Myrealtrip Kmong.
+
+172
+00:16:36,000 --> 00:16:44,000
+So the program we started again
+
+173
+00:16:44,000 --> 00:16:46,000
+is the AI Champion Training Program.
+
+174
+00:16:46,000 --> 00:16:52,000
+As we wrote, the core principle is solving your own problems.
+
+175
+00:16:52,000 --> 00:16:56,000
+And this program was initially run very ad-hoc.
+
+176
+00:16:56,000 --> 00:17:00,000
+People would say "I want to do this" and come join, things like that.
+
+177
+00:17:00,000 --> 00:17:08,000
+As we gradually established a framework, I thought about what program we could benchmark
+
+178
+00:17:08,000 --> 00:17:12,000
+and thought Y Combinator's batch program was somewhat similar.
+
+179
+00:17:12,000 --> 00:17:18,000
+Except for investment, their mentoring program seems similar to ours.
+
+180
+00:17:18,000 --> 00:17:20,000
+We run it in batches.
+
+181
+00:17:20,000 --> 00:17:28,000
+So how we work now is - I couldn't really put photos here but
+
+182
+00:17:28,000 --> 00:17:36,000
+we open office hours for 2 hours a day, and people working on projects can come anytime within those 2 hours.
+
+183
+00:17:36,000 --> 00:17:44,000
+Our team member acts as a tutor and is present, and we sync up with each person who comes about their current situation
+
+184
+00:17:44,000 --> 00:17:52,000
+what problems they're facing, and we just try to solve it together for about 30 minutes.
+
+185
+00:17:52,000 --> 00:18:00,000
+If they gain knowledge or if I can prove that something is possible, they take it back
+
+186
+00:18:00,000 --> 00:18:02,000
+and try it themselves.
+
+187
+00:18:02,000 --> 00:18:10,000
+We're doing a lot of these things, and among the completed projects
+
+188
+00:18:10,000 --> 00:18:18,000
+let me introduce a few. A designer made a Figma plugin to create advertising materials
+
+189
+00:18:18,000 --> 00:18:26,000
+It was originally an animation but you can't see it now, but when you run the plugin
+
+190
+00:18:26,000 --> 00:18:28,000
+a modal window pops up like that.
+
+191
+00:18:28,000 --> 00:18:36,000
+If you input some parameters there, since we're a travel company, for travel promotion materials
+
+192
+00:18:36,000 --> 00:18:44,000
+it renders each card that goes on the promotion page. So when you input a product ID
+
+193
+00:18:44,000 --> 00:18:50,000
+it extracts the properties, how should I put it.
+
+194
+00:18:50,000 --> 00:18:52,000
+For example, if it's a hotel.
+
+195
+00:18:52,000 --> 00:19:00,000
+It randomly picks a few hotel room photos or pool photos and fills them as card content, and for the hotel's
+
+196
+00:19:00,000 --> 00:19:08,000
+detailed information text, it sends a call to the Anthropic API and
+
+197
+00:19:08,000 --> 00:19:16,000
+generates hooking phrases, and fills different card types - horizontal, vertical, square
+
+198
+00:19:16,000 --> 00:19:22,000
+with these templates to generate them instantly. That's the plugin they made.
+
+199
+00:19:22,000 --> 00:19:26,000
+The second one is also advertising.
+
+200
+00:19:30,000 --> 00:19:38,000
+They made a back office web application for their business like that, and
+
+201
+00:19:38,000 --> 00:19:46,000
+made the company's official homepage, and a marketer made an airline price comparison site
+
+202
+00:19:46,000 --> 00:19:54,000
+to increase traffic to our flights - they did experiments like that too.
+
+203
+00:19:54,000 --> 00:19:58,000
+The lessons learned here are about four.
+
+204
+00:19:58,000 --> 00:20:06,000
+First, in our case-sharing sessions, seeing colleagues next to you succeed and gaining confidence is most important.
+
+205
+00:20:06,000 --> 00:20:14,000
+Rather than what power tools you can use or how to use them, just having confidence that you can do it is much more
+
+206
+00:20:14,000 --> 00:20:16,000
+important.
+
+207
+00:20:16,000 --> 00:20:22,000
+Second, it's best when someone with ownership does this work.
+
+208
+00:20:22,000 --> 00:20:30,000
+In Myrealtrip Kmong, when someone without ownership solved problems, communication costs were very high and it wasn't
+
+209
+00:20:30,000 --> 00:20:32,000
+easy to sustain.
+
+210
+00:20:32,000 --> 00:20:40,000
+Third, we always run with a small team. I started as a team of one, and now
+
+211
+00:20:40,000 --> 00:20:44,000
+we're 3 people. For a while it was 2 people.
+
+212
+00:20:44,000 --> 00:20:52,000
+So we're also making a lot of efforts to work AI-natively, and as you can see here, when champions
+
+213
+00:20:52,000 --> 00:21:00,000
+apply for a batch, we created pre-interviews to get more
+
+214
+00:21:00,000 --> 00:21:04,000
+specific answers we want.
+
+215
+00:21:04,000 --> 00:21:10,000
+And finally, start quickly and visualize.
+
+216
+00:21:10,000 --> 00:21:18,000
+This is two things. Actually, for the Myrealtrip Kmong project, I wasted a month trying to build a system, but after meeting with my leader
+
+217
+00:21:18,000 --> 00:21:22,000
+we made the first case in 15 minutes and launched immediately.
+
+218
+00:21:22,000 --> 00:21:24,000
+Ignoring all the system.
+
+219
+00:21:24,000 --> 00:21:32,000
+Actually, I witnessed my developer clumsiness again
+
+220
+00:21:32,000 --> 00:21:34,000
+at that moment.
+
+221
+00:21:34,000 --> 00:21:40,000
+And second, this is about raising literacy, how can we effectively
+
+222
+00:21:42,000 --> 00:21:46,000
+gain motivation and do this?
+
+223
+00:21:46,000 --> 00:21:50,000
+What you see here isn't about using coding tools.
+
+224
+00:21:50,000 --> 00:21:54,000
+It's just calculating how many lines you wrote and creating a ranking.
+
+225
+00:21:54,000 --> 00:22:02,000
+Like this, we collect all events and work done internally as metrics as much as possible
+
+226
+00:22:02,000 --> 00:22:08,000
+and enable competition.
+
+227
+00:22:08,000 --> 00:22:16,000
+And now we're thinking about various things. Initially, I thought we shouldn't develop
+
+228
+00:22:16,000 --> 00:22:24,000
+but these days, development costs are converging to almost zero, so now it seems worth challenging again
+
+229
+00:22:24,000 --> 00:22:32,000
+And in a way, the systems we want to build are becoming more sophisticated
+
+230
+00:22:32,000 --> 00:22:40,000
+and requirements are getting acutely difficult, so I think it would be good to build something. So we're developing agents
+
+231
+00:22:40,000 --> 00:22:48,000
+And I've been mainly working with non-developers, but the development organization also needs to think about
+
+232
+00:22:48,000 --> 00:22:56,000
+the next stage much more, and we're continuing to research what the 10x engineer that everyone talks about
+
+233
+00:22:56,000 --> 00:23:00,000
+looks like and how to define it.
+
+234
+00:23:00,000 --> 00:23:02,000
+Thank you.
+

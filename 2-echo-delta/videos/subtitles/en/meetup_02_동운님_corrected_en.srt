@@ -1,0 +1,860 @@
+1
+00:00:00,000 --> 00:00:04,000
+Hello. I'm Dongwoon Choi. You can call me Colin.
+
+2
+00:00:04,000 --> 00:00:06,000
+I'm currently working at Samyang Foods.
+
+3
+00:00:06,000 --> 00:00:10,000
+Samyang Foods, Buldak is famous, but it seems far from AI.
+
+4
+00:00:10,000 --> 00:00:13,000
+But I'll briefly share what I'm working on.
+
+5
+00:00:13,000 --> 00:00:16,000
+I titled it this way. What does this mean?
+
+6
+00:00:16,000 --> 00:00:19,000
+I posted an article on LinkedIn.
+
+7
+00:00:19,000 --> 00:00:25,000
+Samyang Foods, Buldak is doing great, but who would want to come work as a software developer?
+
+8
+00:00:25,000 --> 00:00:30,000
+IT recruitment wasn't working. We were serious about it though.
+
+9
+00:00:30,000 --> 00:00:34,000
+So I started posting articles, and they did well.
+
+10
+00:00:34,000 --> 00:00:37,000
+If you're curious, you can check out my LinkedIn.
+
+11
+00:00:37,000 --> 00:00:44,000
+But I said our calculators were confiscated so we could only use Excel, so I brought that as the title.
+
+12
+00:00:44,000 --> 00:00:46,000
+What this means is
+
+13
+00:00:46,000 --> 00:00:52,000
+I came to Samyang Foods with a somewhat unique background.
+
+14
+00:00:52,000 --> 00:00:54,000
+And then
+
+15
+00:00:54,000 --> 00:00:55,000
+But suddenly
+
+16
+00:00:55,000 --> 00:00:58,000
+they're talking about digital IT and stuff.
+
+17
+00:00:58,000 --> 00:01:00,000
+saying they want to build something.
+
+18
+00:01:00,000 --> 00:01:02,000
+So we need to deliver meaningful results by year-end.
+
+19
+00:01:02,000 --> 00:01:06,000
+But we only have 6 months, there's me and a designer,
+
+20
+00:01:06,000 --> 00:01:12,000
+and then there's that handsome long-haired gentleman sitting over there.
+
+21
+00:01:12,000 --> 00:01:16,000
+So we need to build something with just the three of us.
+
+22
+00:01:16,000 --> 00:01:19,000
+At first, naturally we thought about outsourcing development.
+
+23
+00:01:19,000 --> 00:01:22,000
+So we met with all kinds of companies.
+
+24
+00:01:22,000 --> 00:01:24,000
+But everyone was just trying to rip us off.
+
+25
+00:01:24,000 --> 00:01:26,000
+These guys have money and know nothing.
+
+26
+00:01:26,000 --> 00:01:27,000
+These guys just have money.
+
+27
+00:01:27,000 --> 00:01:29,000
+They both made a lot of money but now they're doing something weird.
+
+28
+00:01:29,000 --> 00:01:31,000
+They kept coming at us like that.
+
+29
+00:01:31,000 --> 00:01:34,000
+So I thought, wow, we have no choice.
+
+30
+00:01:34,000 --> 00:01:37,000
+The answer is to go the AI native path.
+
+31
+00:01:37,000 --> 00:01:39,000
+Cursor and Claude Code are working so well.
+
+32
+00:01:39,000 --> 00:01:41,000
+There's no other way, let's quickly accept this.
+
+33
+00:01:41,000 --> 00:01:44,000
+Let's accept it, and if it doesn't work, we'll just quit.
+
+34
+00:01:44,000 --> 00:01:46,000
+And then we have no existing legacy.
+
+35
+00:01:46,000 --> 00:01:49,000
+Manufacturing companies don't know anything about IT software development.
+
+36
+00:01:49,000 --> 00:01:51,000
+So this is originally how we do it.
+
+37
+00:01:51,000 --> 00:01:53,000
+I thought this would work.
+
+38
+00:01:53,000 --> 00:01:58,000
+So let's go, and I started with Seongju sitting over there.
+
+39
+00:01:58,000 --> 00:02:01,000
+So the three of us, including our designer, came to an agreement.
+
+40
+00:02:01,000 --> 00:02:04,000
+Since we have no time and we're busy,
+
+41
+00:02:04,000 --> 00:02:06,000
+everything in code.
+
+42
+00:02:06,000 --> 00:02:07,000
+Everyone uses Cursor and Claude Code.
+
+43
+00:02:07,000 --> 00:02:09,000
+No Figma, Notion, Jira, none of that crap.
+
+44
+00:02:09,000 --> 00:02:12,000
+Everything through chat. That's how we started.
+
+45
+00:02:12,000 --> 00:02:17,000
+So as we went on, what was really important was
+
+46
+00:02:17,000 --> 00:02:19,000
+let's throw away all the old ways.
+
+47
+00:02:19,000 --> 00:02:20,000
+If we don't throw it away, we can't survive.
+
+48
+00:02:20,000 --> 00:02:21,000
+We burned our bridges.
+
+49
+00:02:21,000 --> 00:02:23,000
+If we don't do this, we'll all quit anyway.
+
+50
+00:02:23,000 --> 00:02:25,000
+That's what we did.
+
+51
+00:02:25,000 --> 00:02:27,000
+So as I mentioned earlier,
+
+52
+00:02:27,000 --> 00:02:29,000
+we gave up PRD, Figma, development, details, everything.
+
+53
+00:02:29,000 --> 00:02:31,000
+Don't write meeting notes, we don't need that.
+
+54
+00:02:31,000 --> 00:02:33,000
+We only talk through builds.
+
+55
+00:02:33,000 --> 00:02:35,000
+We don't need anything but builds.
+
+56
+00:02:35,000 --> 00:02:38,000
+Whether it's meeting notes or Figma files, code is what's real.
+
+57
+00:02:38,000 --> 00:02:40,000
+All those things never get updated anyway,
+
+58
+00:02:40,000 --> 00:02:41,000
+they were just painful.
+
+59
+00:02:41,000 --> 00:02:42,000
+What's the point of all that?
+
+60
+00:02:42,000 --> 00:02:44,000
+We can just communicate everything through code.
+
+61
+00:02:44,000 --> 00:02:46,000
+So we only talk through builds,
+
+62
+00:02:46,000 --> 00:02:48,000
+only through code.
+
+63
+00:02:48,000 --> 00:02:50,000
+Fortunately, both our designer and I,
+
+64
+00:02:50,000 --> 00:02:52,000
+we don't know how to code at all.
+
+65
+00:02:52,000 --> 00:02:55,000
+But we quickly accepted that there's no other way.
+
+66
+00:02:55,000 --> 00:02:57,000
+Because we accepted it, we tried this approach.
+
+67
+00:02:57,000 --> 00:02:59,000
+And it worked.
+
+68
+00:02:59,000 --> 00:03:02,000
+So we actually built an MVP in one month
+
+69
+00:03:02,000 --> 00:03:06,000
+and launched a service targeting TikTok creators in the US market.
+
+70
+00:03:06,000 --> 00:03:08,000
+So the company was surprised too.
+
+71
+00:03:08,000 --> 00:03:10,000
+Oh, this could be done in one month?
+
+72
+00:03:10,000 --> 00:03:12,000
+So I said, yes, this is how it works.
+
+73
+00:03:12,000 --> 00:03:13,000
+You don't need to pay much to outsiders.
+
+74
+00:03:13,000 --> 00:03:15,000
+Just let us use a lot of tokens.
+
+75
+00:03:15,000 --> 00:03:16,000
+That's what I told them.
+
+76
+00:03:16,000 --> 00:03:19,000
+In that situation, a problem arose.
+
+77
+00:03:19,000 --> 00:03:21,000
+Oh, how should I explain this?
+
+78
+00:03:22,000 --> 00:03:24,000
+And then I realized something.
+
+79
+00:03:24,000 --> 00:03:26,000
+What are the core competencies? After trying it, I felt
+
+80
+00:03:26,000 --> 00:03:27,000
+exactly two things.
+
+81
+00:03:27,000 --> 00:03:29,000
+Taste and judgment. That's what I found.
+
+82
+00:03:29,000 --> 00:03:32,000
+AI pours out answers incredibly fast, right?
+
+83
+00:03:32,000 --> 00:03:34,000
+So ultimately, what humans need to do is
+
+84
+00:03:34,000 --> 00:03:37,000
+is this right? Or wrong? You need to tell it precisely.
+
+85
+00:03:37,000 --> 00:03:40,000
+Do I like this? Do I not like this? Or is it correct? Is it wrong?
+
+86
+00:03:40,000 --> 00:03:43,000
+You need to communicate this.
+
+87
+00:03:43,000 --> 00:03:46,000
+And especially when it comes to design,
+
+88
+00:03:46,000 --> 00:03:47,000
+there's the realm of taste.
+
+89
+00:03:47,000 --> 00:03:49,000
+So we need to have clear taste.
+
+90
+00:03:49,000 --> 00:03:51,000
+And for development architecture and such things,
+
+91
+00:03:51,000 --> 00:03:54,000
+there's right and wrong.
+
+92
+00:03:54,000 --> 00:03:57,000
+So making those judgments quickly was important.
+
+93
+00:03:57,000 --> 00:03:59,000
+So whether you're a prompt engineer,
+
+94
+00:03:59,000 --> 00:04:02,000
+or can't use models, can't use MCP, none of that matters.
+
+95
+00:04:02,000 --> 00:04:05,000
+First, like us, switching your mindset is the best approach.
+
+96
+00:04:05,000 --> 00:04:07,000
+That's what we felt.
+
+97
+00:04:07,000 --> 00:04:10,000
+And fortunately, the three of us had enough
+
+98
+00:04:10,000 --> 00:04:13,000
+experience and capability to switch our mindset.
+
+99
+00:04:13,000 --> 00:04:17,000
+So we proceeded with quick judgment and taste.
+
+100
+00:04:17,000 --> 00:04:20,000
+But then I ran into another issue.
+
+101
+00:04:20,000 --> 00:04:22,000
+The first month went well.
+
+102
+00:04:22,000 --> 00:04:25,000
+But as it became two months, three months,
+
+103
+00:04:25,000 --> 00:04:28,000
+gradually everyone's style started to differ.
+
+104
+00:04:28,000 --> 00:04:30,000
+Individual techniques started to emerge.
+
+105
+00:04:30,000 --> 00:04:34,000
+So as we started to diverge a bit,
+
+106
+00:04:34,000 --> 00:04:37,000
+we brought in freelancers to work with us.
+
+107
+00:04:37,000 --> 00:04:40,000
+So about five or six people
+
+108
+00:04:40,000 --> 00:04:42,000
+started committing to GitHub, to the repo.
+
+109
+00:04:42,000 --> 00:04:45,000
+And I thought, oh, I tried this and it works.
+
+110
+00:04:45,000 --> 00:04:47,000
+So our team's data analysts
+
+111
+00:04:47,000 --> 00:04:50,000
+and other non-developer roles also started committing.
+
+112
+00:04:50,000 --> 00:04:51,000
+So I just told them to do it.
+
+113
+00:04:51,000 --> 00:04:54,000
+Then gradually it started becoming chaos.
+
+114
+00:04:54,000 --> 00:04:56,000
+I think many of you have probably experienced this,
+
+115
+00:04:56,000 --> 00:04:58,000
+when multiple people use it, chaos ensues.
+
+116
+00:04:58,000 --> 00:05:01,000
+So I thought, oh, we need systematization.
+
+117
+00:05:01,000 --> 00:05:03,000
+We need something.
+
+118
+00:05:03,000 --> 00:05:05,000
+It was around September.
+
+119
+00:05:05,000 --> 00:05:07,000
+What should we do? Should we go back to the old ways?
+
+120
+00:05:07,000 --> 00:05:09,000
+Because of this, should I go back to using Notion and Jira
+
+121
+00:05:09,000 --> 00:05:11,000
+and Figma that I used before?
+
+122
+00:05:11,000 --> 00:05:13,000
+I was tempted.
+
+123
+00:05:13,000 --> 00:05:16,000
+One evening, I was eating at McDonald's,
+
+124
+00:05:16,000 --> 00:05:19,000
+and it suddenly hit me. Oh, this is it! This is it.
+
+125
+00:05:20,000 --> 00:05:23,000
+Whether you eat McDonald's in Seoul Forest, Gangnam, or New York,
+
+126
+00:05:23,000 --> 00:05:26,000
+it's all the same, right? The Big Mac tastes the same everywhere.
+
+127
+00:05:26,000 --> 00:05:28,000
+Couldn't we make it like that?
+
+128
+00:05:28,000 --> 00:05:31,000
+So McDonald's solved this problem the best, right?
+
+129
+00:05:31,000 --> 00:05:33,000
+That's what I thought.
+
+130
+00:05:33,000 --> 00:05:37,000
+So we decided to create a McDonald's franchise model.
+
+131
+00:05:37,000 --> 00:05:40,000
+Here, the headquarters, branch manager, someone like Baek Jong-won,
+
+132
+00:05:40,000 --> 00:05:43,000
+the person who sends down manuals from franchise headquarters,
+
+133
+00:05:43,000 --> 00:05:45,000
+that's the Tech Lead sitting over there.
+
+134
+00:05:45,000 --> 00:05:49,000
+The rest of us, non-developers and non-engineers,
+
+135
+00:05:50,000 --> 00:05:52,000
+we just manage our branches as branch managers.
+
+136
+00:05:52,000 --> 00:05:55,000
+And the part-timers there are just coding agents.
+
+137
+00:05:55,000 --> 00:05:57,000
+That's the idea.
+
+138
+00:05:57,000 --> 00:06:00,000
+So we proceeded this way.
+
+139
+00:06:00,000 --> 00:06:05,000
+The workflow principles can't be complex because we can't understand it, so it's very simple.
+
+140
+00:06:05,000 --> 00:06:08,000
+Number 1, gather everything into one context.
+
+141
+00:06:08,000 --> 00:06:12,000
+We have two things we call Source of Truth.
+
+142
+00:06:12,000 --> 00:06:14,000
+One is we record all meetings
+
+143
+00:06:14,000 --> 00:06:17,000
+and after recording, we dump everything into Google Notebook LM.
+
+144
+00:06:17,000 --> 00:06:20,000
+We didn't have time to build legacy systems.
+
+145
+00:06:20,000 --> 00:06:22,000
+So Google Notebook LM, let's just use what's available quickly.
+
+146
+00:06:22,000 --> 00:06:24,000
+We dump everything into the repo and Notebook LM.
+
+147
+00:06:24,000 --> 00:06:27,000
+All the meeting notes are in there.
+
+148
+00:06:27,000 --> 00:06:29,000
+So why we're trying to do this work,
+
+149
+00:06:29,000 --> 00:06:32,000
+if you throw a prompt into Notebook LM, it tells you.
+
+150
+00:06:32,000 --> 00:06:33,000
+We start work from there.
+
+151
+00:06:33,000 --> 00:06:36,000
+And for deliverables, we really don't use Notion, Figma, Jira.
+
+152
+00:06:36,000 --> 00:06:38,000
+Nothing. Only GitHub.
+
+153
+00:06:38,000 --> 00:06:40,000
+So we gather everything in GitHub.
+
+154
+00:06:40,000 --> 00:06:43,000
+So this is how we created our McDonald's.
+
+155
+00:06:43,000 --> 00:06:48,000
+You can see our signature menu items like Start Feature and such.
+
+156
+00:06:48,000 --> 00:06:50,000
+We've broken everything down.
+
+157
+00:06:50,000 --> 00:06:52,000
+And when it comes to how McDonald's maintains uniformity,
+
+158
+00:06:52,000 --> 00:06:55,000
+if one part-timer had to make a Big Mac, everyone would do it differently.
+
+159
+00:06:55,000 --> 00:06:59,000
+But someone only takes orders, someone only toasts buns, someone only cooks patties.
+
+160
+00:06:59,000 --> 00:07:02,000
+That's how they maintain uniformity.
+
+161
+00:07:02,000 --> 00:07:04,000
+We actually saved a lot on token costs.
+
+162
+00:07:04,000 --> 00:07:06,000
+We used a lot of tokens and thought it wasn't good.
+
+163
+00:07:06,000 --> 00:07:09,000
+Too expensive. And slow. The higher the model.
+
+164
+00:07:09,000 --> 00:07:13,000
+If you break it down like this, cheap and fast models can run quickly, quickly, quickly.
+
+165
+00:07:13,000 --> 00:07:15,000
+Speed was really, really important for us.
+
+166
+00:07:15,000 --> 00:07:19,000
+So we broke it down like this and used cheap and fast models.
+
+167
+00:07:19,000 --> 00:07:22,000
+Things like Cursor's Composer are so fast.
+
+168
+00:07:22,000 --> 00:07:25,000
+Really great. We just run it quickly and use it.
+
+169
+00:07:25,000 --> 00:07:27,000
+That's how we did it.
+
+170
+00:07:27,000 --> 00:07:30,000
+As we went on, it's fast to say too, right?
+
+171
+00:07:30,000 --> 00:07:32,000
+I'll take my time and speak quickly.
+
+172
+00:07:32,000 --> 00:07:34,000
+So we did mergers and acquisitions.
+
+173
+00:07:34,000 --> 00:07:36,000
+We had multiple repositories.
+
+174
+00:07:36,000 --> 00:07:39,000
+McDonald's wasn't there, it was in the app we made before.
+
+175
+00:07:39,000 --> 00:07:43,000
+And there were several other agents or different types of repos.
+
+176
+00:07:43,000 --> 00:07:45,000
+But we realized this.
+
+177
+00:07:45,000 --> 00:07:47,000
+Oh, we need to merge and acquire a lot into McDonald's.
+
+178
+00:07:47,000 --> 00:07:49,000
+Let's go with a monorepo.
+
+179
+00:07:49,000 --> 00:07:52,000
+We merged all the multiple repositories into one.
+
+180
+00:07:52,000 --> 00:07:56,000
+Analysis that analysts used, Agent that analysts used,
+
+181
+00:07:56,000 --> 00:08:00,000
+our app, we bundled everything together.
+
+182
+00:08:00,000 --> 00:08:04,000
+After bundling, now all the context is in here, everyone's stuff is in here.
+
+183
+00:08:04,000 --> 00:08:07,000
+Based on this, we pull out what we need and use it.
+
+184
+00:08:07,000 --> 00:08:11,000
+As we did this, whoever comes can do it right away.
+
+185
+00:08:11,000 --> 00:08:14,000
+Since full-time hiring is nearly impossible for us,
+
+186
+00:08:14,000 --> 00:08:17,000
+we have no choice but to use freelancers.
+
+187
+00:08:17,000 --> 00:08:19,000
+We're working with Goobong's team.
+
+188
+00:08:19,000 --> 00:08:24,000
+Kwontae sitting over there, Jake, as soon as he came, he immediately did Start Feature.
+
+189
+00:08:24,000 --> 00:08:26,000
+On the first day, he just built a feature right away.
+
+190
+00:08:26,000 --> 00:08:27,000
+As a freelancer.
+
+191
+00:08:27,000 --> 00:08:29,000
+Oh right, this is it. This is McDonald's.
+
+192
+00:08:29,000 --> 00:08:32,000
+When you work part-time at McDonald's, you start working right away on the first day.
+
+193
+00:08:32,000 --> 00:08:34,000
+We really, really needed to make it like that.
+
+194
+00:08:34,000 --> 00:08:37,000
+In a reality where full-time hiring is impossible, this is all we can do.
+
+195
+00:08:37,000 --> 00:08:40,000
+So we went this way.
+
+196
+00:08:40,000 --> 00:08:43,000
+So in conclusion, there are several things I can say,
+
+197
+00:08:43,000 --> 00:08:48,000
+but the biggest thing is first, going to an environment where I have no choice but to throw away my old ways.
+
+198
+00:08:49,000 --> 00:08:51,000
+That's what it is.
+
+199
+00:08:51,000 --> 00:08:56,000
+If I had 10 engineers on the team, I can clearly tell I would never have done this.
+
+200
+00:08:56,000 --> 00:08:59,000
+We're doing this because we don't have them on the team.
+
+201
+00:08:59,000 --> 00:09:02,000
+Second, just close your mind and just build something first.
+
+202
+00:09:02,000 --> 00:09:07,000
+Anyway, in a world where there are no right answers regarding AI, trying it is the most important.
+
+203
+00:09:07,000 --> 00:09:12,000
+Third, the era of dividing engineers and non-engineers is over.
+
+204
+00:09:12,000 --> 00:09:17,000
+This is too old-fashioned. Everyone writes code. All 12 out of 12 on our team can write code.
+
+205
+00:09:17,000 --> 00:09:18,000
+Because it's not code,
+
+206
+00:09:19,000 --> 00:09:21,000
+you can talk in Korean too.
+
+207
+00:09:21,000 --> 00:09:22,000
+So you can use Korean.
+
+208
+00:09:22,000 --> 00:09:26,000
+So give everyone a Cursor project and if you're frustrated, you build it.
+
+209
+00:09:26,000 --> 00:09:28,000
+There was something from the earlier presentation, right?
+
+210
+00:09:28,000 --> 00:09:30,000
+If you're frustrated, you build it. That's really good.
+
+211
+00:09:30,000 --> 00:09:33,000
+And we put everything into our monorepo, merged it with McDonald's,
+
+212
+00:09:33,000 --> 00:09:37,000
+so pick out the prompts and elements in there and build what you want.
+
+213
+00:09:37,000 --> 00:09:39,000
+That's the essence of it.
+
+214
+00:09:39,000 --> 00:09:40,000
+That's it.
+
+215
+00:09:40,000 --> 00:09:41,000
+The end.
+

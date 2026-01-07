@@ -1,0 +1,2227 @@
+1
+00:00:00,000 --> 00:00:05,000
+Hello, I'm Gunho Shin from DAY1COMPANY.
+
+2
+00:00:05,000 --> 00:00:11,000
+Today's topic is "Highly Advanced AX is Indistinguishable from Entrepreneurship."
+
+3
+00:00:11,000 --> 00:00:18,000
+I made the slides quite wordy, but since the presentation materials will be shared afterwards,
+
+4
+00:00:18,000 --> 00:00:21,000
+I wrote detailed content so you can understand by reading it.
+
+5
+00:00:21,000 --> 00:00:23,000
+Let me proceed quickly.
+
+6
+00:00:23,000 --> 00:00:25,000
+There are three things today.
+
+7
+00:00:25,000 --> 00:00:29,000
+First, I'll share what I learned while missing AX opportunities,
+
+8
+00:00:29,000 --> 00:00:34,000
+and ultimately explain that highly advanced AX is indistinguishable from entrepreneurship.
+
+9
+00:00:34,000 --> 00:00:45,000
+From that perspective, I prepared this presentation to share the AX playbook rules I came up with.
+
+10
+00:00:45,000 --> 00:00:48,000
+I'll talk more about the third point later,
+
+11
+00:00:48,000 --> 00:00:55,000
+but since this is Echo & Delta, I'm here to claim I'm an AX consultant.
+
+12
+00:00:55,000 --> 00:00:58,000
+So I brought my career path briefly.
+
+13
+00:00:58,000 --> 00:01:03,000
+The characteristic of a consultant is always having a broad and shallow skillset.
+
+14
+00:01:03,000 --> 00:01:08,000
+Currently, I'm the head of DAY1COMPANY's B2B business division,
+
+15
+00:01:08,000 --> 00:01:13,000
+and I'm working with the assignment to generate revenue or operating profit.
+
+16
+00:01:13,000 --> 00:01:15,000
+So I'm doing BD.
+
+17
+00:01:15,000 --> 00:01:19,000
+What's actually scary is what I felt while doing BD for a year.
+
+18
+00:01:19,000 --> 00:01:22,000
+I worked logically. So what?
+
+19
+00:01:22,000 --> 00:01:24,000
+I solved problems. So what?
+
+20
+00:01:24,000 --> 00:01:29,000
+Did you generate revenue and operating profit? Having to answer that is really scary.
+
+21
+00:01:29,000 --> 00:01:32,000
+If that doesn't come out, 100 people's salaries depend on me,
+
+22
+00:01:32,000 --> 00:01:35,000
+so 2025 was a year of tremendous pressure.
+
+23
+00:01:35,000 --> 00:01:40,000
+Before that, I was a PO at doeat and did consulting for over 2 years.
+
+24
+00:01:40,000 --> 00:01:45,000
+Then I did Python-based modeling in the financial sector and wrote some code,
+
+25
+00:01:45,000 --> 00:01:48,000
+and then at KAIST I engaged with machine learning and deep learning,
+
+26
+00:01:48,000 --> 00:01:53,000
+and have a background of installing that mindset as an engineer.
+
+27
+00:01:53,000 --> 00:01:58,000
+So now in the company, I'm a division head, so my role is to bring in money.
+
+28
+00:01:58,000 --> 00:02:04,000
+Interestingly though, it is an environment where I can immerse myself in the topic of AX.
+
+29
+00:02:04,000 --> 00:02:12,000
+So because we provide AX education comprehensively to enterprise-level customers,
+
+30
+00:02:12,000 --> 00:02:18,000
+I end up hearing a lot about what AX needs exist at the large enterprise level.
+
+31
+00:02:18,000 --> 00:02:21,000
+After all, providing AX education means they want to do AX.
+
+32
+00:02:21,000 --> 00:02:24,000
+I naturally heard those needs, but of course they're vague.
+
+33
+00:02:24,000 --> 00:02:26,000
+The education they want is also vague.
+
+34
+00:02:26,000 --> 00:02:33,000
+By meeting early adopter-type customers and diagnosing and structuring those needs,
+
+35
+00:02:33,000 --> 00:02:36,000
+I tell them "you need this kind of education,"
+
+36
+00:02:36,000 --> 00:02:42,000
+and it feels like we can just do a new business combining consulting and build services.
+
+37
+00:02:42,000 --> 00:02:45,000
+So I'm trying to launch it next year.
+
+38
+00:02:45,000 --> 00:02:49,000
+If internal customers are on the left, internally for me,
+
+39
+00:02:49,000 --> 00:02:54,000
+the goal isn't to achieve AX but to make money.
+
+40
+00:02:54,000 --> 00:03:00,000
+But ultimately, the best number one way to increase productivity in this era is AX,
+
+41
+00:03:00,000 --> 00:03:03,000
+so I did all sorts of things to increase productivity.
+
+42
+00:03:03,000 --> 00:03:08,000
+Internal education alone doesn't increase productivity just by doing it,
+
+43
+00:03:08,000 --> 00:03:11,000
+so I thought I should make it myself.
+
+44
+00:03:11,000 --> 00:03:14,000
+So I made and deployed projects,
+
+45
+00:03:14,000 --> 00:03:20,000
+like Gems, GPTs projects, dashboards, agents that create agents, Gems, GPTs, etc.
+
+46
+00:03:20,000 --> 00:03:23,000
+I tried hard to deploy them.
+
+47
+00:03:23,000 --> 00:03:27,000
+In November this year, I officially set up an AI Transformation team.
+
+48
+00:03:27,000 --> 00:03:31,000
+Naturally, as Donghoon mentioned,
+
+49
+00:03:31,000 --> 00:03:32,000
+resources aren't sufficient.
+
+50
+00:03:32,000 --> 00:03:34,000
+Whatever you do, bring in money.
+
+51
+00:03:34,000 --> 00:03:38,000
+Because of this, I can't starve myself and close my eyes,
+
+52
+00:03:38,000 --> 00:03:42,000
+so I just picked the 4 smartest people from the education team,
+
+53
+00:03:42,000 --> 00:03:45,000
+reassigned them, and although they didn't know n8n, they started studying.
+
+54
+00:03:45,000 --> 00:03:47,000
+Now after various trial and error,
+
+55
+00:03:47,000 --> 00:03:50,000
+we're completely rebuilding the proposal workflow.
+
+56
+00:03:50,000 --> 00:03:54,000
+From when leads are collected to the final proposal that goes to customers,
+
+57
+00:03:54,000 --> 00:03:57,000
+we're making it output as PPT.
+
+58
+00:03:57,000 --> 00:03:59,000
+And it's working better than expected.
+
+59
+00:03:59,000 --> 00:04:03,000
+So this is what I'm doing with AX right now.
+
+60
+00:04:03,000 --> 00:04:08,000
+My core question is: how can we succeed in AI transformation?
+
+61
+00:04:08,000 --> 00:04:12,000
+And beyond increasing individual productivity,
+
+62
+00:04:12,000 --> 00:04:14,000
+how do we get to the organizational level?
+
+63
+00:04:14,000 --> 00:04:16,000
+That's the question I have.
+
+64
+00:04:16,000 --> 00:04:22,000
+Probably everyone here today has the same question.
+
+65
+00:04:22,000 --> 00:04:25,000
+This is the technology adoption curve.
+
+66
+00:04:25,000 --> 00:04:30,000
+Where do you think you are among those attending today?
+
+67
+00:04:31,000 --> 00:04:34,000
+You're probably here, naturally.
+
+68
+00:04:34,000 --> 00:04:38,000
+What I felt when doing AX meetings or education meetings with large companies
+
+69
+00:04:38,000 --> 00:04:40,000
+and looking at internal business members
+
+70
+00:04:40,000 --> 00:04:42,000
+is that for those of you here, it's about here.
+
+71
+00:04:42,000 --> 00:04:47,000
+You're ridiculously extreme outliers,
+
+72
+00:04:47,000 --> 00:04:48,000
+but where is my team leader?
+
+73
+00:04:48,000 --> 00:04:53,000
+From a business perspective, if the team leader is here, thank you.
+
+74
+00:04:53,000 --> 00:04:58,000
+And the marketing team, education team, sales team that need to do AX,
+
+75
+00:04:58,000 --> 00:05:00,000
+if they're here, thank you.
+
+76
+00:05:00,000 --> 00:05:03,000
+To go beyond individual productivity to organizational productivity,
+
+77
+00:05:03,000 --> 00:05:06,000
+you have to force this on these people.
+
+78
+00:05:06,000 --> 00:05:07,000
+I have to do it.
+
+79
+00:05:07,000 --> 00:05:10,000
+I have to do all this to these people,
+
+80
+00:05:10,000 --> 00:05:14,000
+and usually that's the case.
+
+81
+00:05:14,000 --> 00:05:16,000
+Why am I getting tangled up with you?
+
+82
+00:05:16,000 --> 00:05:20,000
+Ultimately, it's a very difficult task.
+
+83
+00:05:20,000 --> 00:05:25,000
+And C-level people don't easily give resources.
+
+84
+00:05:25,000 --> 00:05:26,000
+From that perspective,
+
+85
+00:05:26,000 --> 00:05:30,000
+unless you're in a leadership position in this era, the opportunity itself
+
+86
+00:05:30,000 --> 00:05:33,000
+to try organizational-level productivity through AX
+
+87
+00:05:33,000 --> 00:05:37,000
+is only 2-3 tries even for leaders.
+
+88
+00:05:37,000 --> 00:05:39,000
+So what I want to say is,
+
+89
+00:05:39,000 --> 00:05:41,000
+because it's this difficult,
+
+90
+00:05:41,000 --> 00:05:45,000
+if I share what I learned from successful and failed AX,
+
+91
+00:05:45,000 --> 00:05:47,000
+we can reduce that trial and error,
+
+92
+00:05:47,000 --> 00:05:49,000
+waste fewer tickets,
+
+93
+00:05:49,000 --> 00:05:51,000
+that's what I think.
+
+94
+00:05:51,000 --> 00:05:53,000
+What I did first
+
+95
+00:05:53,000 --> 00:05:56,000
+was start with thinking
+
+96
+00:05:56,000 --> 00:05:59,000
+"I should make a proposal search system" beyond education.
+
+97
+00:05:59,000 --> 00:06:00,000
+I started from there.
+
+98
+00:06:00,000 --> 00:06:04,000
+So we have a workflow where our education consultants hear customer needs
+
+99
+00:06:04,000 --> 00:06:08,000
+and propose by introducing education.
+
+100
+00:06:08,000 --> 00:06:10,000
+At first, I proceeded by the book.
+
+101
+00:06:10,000 --> 00:06:13,000
+Naturally, I captured the workflow from interviews.
+
+102
+00:06:13,000 --> 00:06:16,000
+Then I drew it all out.
+
+103
+00:06:16,000 --> 00:06:19,000
+When this exists, I made about 4 agents
+
+104
+00:06:19,000 --> 00:06:21,000
+that draw it like this,
+
+105
+00:06:21,000 --> 00:06:23,000
+so when this goes in, it comes out like this.
+
+106
+00:06:23,000 --> 00:06:26,000
+I made it thinking "how impressive."
+
+107
+00:06:26,000 --> 00:06:28,000
+Naturally, after analyzing the workflow,
+
+108
+00:06:28,000 --> 00:06:30,000
+what do they tell you to do next?
+
+109
+00:06:30,000 --> 00:06:32,000
+They tell you to analyze bottlenecks.
+
+110
+00:06:32,000 --> 00:06:34,000
+So when I looked, ultimately
+
+111
+00:06:34,000 --> 00:06:36,000
+in collecting internal materials,
+
+112
+00:06:36,000 --> 00:06:38,000
+they were spending too much time.
+
+113
+00:06:38,000 --> 00:06:40,000
+Depending on the customer's key points,
+
+114
+00:06:40,000 --> 00:06:42,000
+the proposals to reference are all different,
+
+115
+00:06:42,000 --> 00:06:44,000
+but they're all on Drive, about 300 of them.
+
+116
+00:06:44,000 --> 00:06:46,000
+You have to open and look at them all,
+
+117
+00:06:46,000 --> 00:06:49,000
+so I thought "This is perfect low-hanging fruit for AX."
+
+118
+00:06:49,000 --> 00:06:51,000
+So I made it.
+
+119
+00:06:51,000 --> 00:06:53,000
+The resources I invested were:
+
+120
+00:06:53,000 --> 00:06:55,000
+At that time, there was a strategy team.
+
+121
+00:06:55,000 --> 00:06:57,000
+Practitioner interviews, the strategy team
+
+122
+00:06:57,000 --> 00:06:59,000
+summarized, I planned,
+
+123
+00:06:59,000 --> 00:07:02,000
+and the product group leader developed it.
+
+124
+00:07:02,000 --> 00:07:05,000
+First deployment, feedback, second deployment, but
+
+125
+00:07:05,000 --> 00:07:07,000
+then it failed.
+
+126
+00:07:07,000 --> 00:07:09,000
+No one really uses it now.
+
+127
+00:07:09,000 --> 00:07:11,000
+It's just abandoned.
+
+128
+00:07:11,000 --> 00:07:13,000
+Anyway, there was one
+
+129
+00:07:13,000 --> 00:07:15,000
+failed AX case.
+
+130
+00:07:15,000 --> 00:07:17,000
+But then
+
+131
+00:07:17,000 --> 00:07:19,000
+the second one among various attempts
+
+132
+00:07:19,000 --> 00:07:21,000
+that succeeded was
+
+133
+00:07:21,000 --> 00:07:23,000
+a service called skill consulting,
+
+134
+00:07:23,000 --> 00:07:25,000
+which has a pipeline.
+
+135
+00:07:25,000 --> 00:07:27,000
+Just doing AX on this service
+
+136
+00:07:27,000 --> 00:07:29,000
+was a successful experience.
+
+137
+00:07:29,000 --> 00:07:31,000
+To explain simply,
+
+138
+00:07:31,000 --> 00:07:33,000
+skill consulting is
+
+139
+00:07:33,000 --> 00:07:35,000
+for a battery solution company,
+
+140
+00:07:35,000 --> 00:07:37,000
+a company that does electric vehicle batteries,
+
+141
+00:07:37,000 --> 00:07:39,000
+in their R&D division,
+
+142
+00:07:39,000 --> 00:07:41,000
+80 teams, about 100 job functions,
+
+143
+00:07:41,000 --> 00:07:43,000
+defining the software skills
+
+144
+00:07:43,000 --> 00:07:45,000
+needed for R&D
+
+145
+00:07:45,000 --> 00:07:47,000
+and creating an education system.
+
+146
+00:07:47,000 --> 00:07:49,000
+It takes 18 weeks or something like that.
+
+147
+00:07:49,000 --> 00:07:51,000
+What I want to say is,
+
+148
+00:07:51,000 --> 00:07:53,000
+if a big department store like this
+
+149
+00:07:53,000 --> 00:07:55,000
+says they'll do skill consulting, you can leave it to the team,
+
+150
+00:07:55,000 --> 00:07:57,000
+but since I was a consultant,
+
+151
+00:07:57,000 --> 00:07:59,000
+I had a gut feeling that if I left it as is,
+
+152
+00:07:59,000 --> 00:08:01,000
+there would be trouble.
+
+153
+00:08:01,000 --> 00:08:03,000
+At minimum, 4 people would be invested for two weeks,
+
+154
+00:08:03,000 --> 00:08:05,000
+and even pulling all-nighters, time would be insufficient.
+
+155
+00:08:05,000 --> 00:08:07,000
+At this time, there was no
+
+156
+00:08:07,000 --> 00:08:09,000
+workflow analysis.
+
+157
+00:08:09,000 --> 00:08:11,000
+I just wrote all the logic
+
+158
+00:08:11,000 --> 00:08:13,000
+from start to finish, created agents,
+
+159
+00:08:13,000 --> 00:08:15,000
+and deployed it with vibe coding
+
+160
+00:08:15,000 --> 00:08:17,000
+all the way to creating interview sheets.
+
+161
+00:08:17,000 --> 00:08:19,000
+Naturally, in that process,
+
+162
+00:08:19,000 --> 00:08:21,000
+I also worked with GPT
+
+163
+00:08:21,000 --> 00:08:23,000
+to create questions
+
+164
+00:08:23,000 --> 00:08:25,000
+for establishing logic as a consultant.
+
+165
+00:08:25,000 --> 00:08:27,000
+And I developed this directly.
+
+166
+00:08:27,000 --> 00:08:29,000
+But
+
+167
+00:08:29,000 --> 00:08:31,000
+then
+
+168
+00:08:31,000 --> 00:08:33,000
+after creating this difficult consulting
+
+169
+00:08:33,000 --> 00:08:35,000
+work, the entire AS pipeline,
+
+170
+00:08:35,000 --> 00:08:37,000
+I ran about 5 iterations
+
+171
+00:08:37,000 --> 00:08:39,000
+by myself.
+
+172
+00:08:39,000 --> 00:08:41,000
+Creating logic and seeing the output all the way to the end,
+
+173
+00:08:41,000 --> 00:08:43,000
+thinking "Oh, the logic is
+
+174
+00:08:43,000 --> 00:08:45,000
+too heavy," coming back and going from start
+
+175
+00:08:45,000 --> 00:08:47,000
+to end to end. But what was really interesting was
+
+176
+00:08:47,000 --> 00:08:49,000
+that when consulting,
+
+177
+00:08:49,000 --> 00:08:51,000
+you can't run these iterations. Unlike development.
+
+178
+00:08:51,000 --> 00:08:53,000
+People have to do manual labor
+
+179
+00:08:53,000 --> 00:08:55,000
+for a long time,
+
+180
+00:08:55,000 --> 00:08:57,000
+and you can only see results after 8 weeks.
+
+181
+00:08:57,000 --> 00:08:59,000
+But now working with AI,
+
+182
+00:08:59,000 --> 00:09:01,000
+I ran it 5 times
+
+183
+00:09:01,000 --> 00:09:03,000
+and deployed it to the team.
+
+184
+00:09:03,000 --> 00:09:05,000
+So I spent 5 hours every Saturday
+
+185
+00:09:05,000 --> 00:09:07,000
+alone making this workflow,
+
+186
+00:09:07,000 --> 00:09:09,000
+and it's very accurate. 5 GPTs are
+
+187
+00:09:09,000 --> 00:09:11,000
+connected, and you put JSON from number 1
+
+188
+00:09:11,000 --> 00:09:13,000
+into number 2, and put JSON from number 2
+
+189
+00:09:13,000 --> 00:09:15,000
+that GPT analyzed
+
+190
+00:09:15,000 --> 00:09:17,000
+into the next result
+
+191
+00:09:17,000 --> 00:09:19,000
+consecutively, and when you upload it here,
+
+192
+00:09:19,000 --> 00:09:21,000
+it creates interview sheets in Excel.
+
+193
+00:09:21,000 --> 00:09:23,000
+In a way, it's
+
+194
+00:09:23,000 --> 00:09:25,000
+a much more unfamiliar
+
+195
+00:09:25,000 --> 00:09:27,000
+new workflow than the existing
+
+196
+00:09:27,000 --> 00:09:29,000
+proposal search system,
+
+197
+00:09:29,000 --> 00:09:31,000
+so I wondered
+
+198
+00:09:31,000 --> 00:09:33,000
+if the people actually doing this work
+
+199
+00:09:33,000 --> 00:09:35,000
+would use it,
+
+200
+00:09:35,000 --> 00:09:37,000
+but this was actually a huge success.
+
+201
+00:09:37,000 --> 00:09:39,000
+Everyone switched. They just use it
+
+202
+00:09:39,000 --> 00:09:41,000
+even though they don't know what JSON is.
+
+203
+00:09:41,000 --> 00:09:43,000
+Just on this webpage,
+
+204
+00:09:43,000 --> 00:09:45,000
+a link. When I worked in the business division,
+
+205
+00:09:45,000 --> 00:09:47,000
+if I went in with this link
+
+206
+00:09:47,000 --> 00:09:49,000
+and said "please use this," they would never use it.
+
+207
+00:09:49,000 --> 00:09:51,000
+They're just abandoned links,
+
+208
+00:09:51,000 --> 00:09:53,000
+but this one, everyone actually used it so much
+
+209
+00:09:53,000 --> 00:09:55,000
+that everyone switched to the new workflow.
+
+210
+00:09:55,000 --> 00:09:57,000
+So now
+
+211
+00:09:57,000 --> 00:09:59,000
+the decisive difference is just one thing.
+
+212
+00:09:59,000 --> 00:10:01,000
+First,
+
+213
+00:10:01,000 --> 00:10:03,000
+I learned that the magnitude of efficiency determines
+
+214
+00:10:03,000 --> 00:10:05,000
+AX success.
+
+215
+00:10:05,000 --> 00:10:07,000
+Looking at what failed,
+
+216
+00:10:07,000 --> 00:10:09,000
+the existing proposal selection time was about 1 to 2 hours,
+
+217
+00:10:09,000 --> 00:10:11,000
+and using this would reduce it to about 15 minutes.
+
+218
+00:10:11,000 --> 00:10:13,000
+About a 4x change.
+
+219
+00:10:13,000 --> 00:10:15,000
+This AX case,
+
+220
+00:10:15,000 --> 00:10:17,000
+if you didn't use it alone,
+
+221
+00:10:17,000 --> 00:10:19,000
+if you didn't switch to this workflow and did it the existing way,
+
+222
+00:10:19,000 --> 00:10:21,000
+working 12 hours a day
+
+223
+00:10:21,000 --> 00:10:23,000
+for 2 weeks,
+
+224
+00:10:23,000 --> 00:10:25,000
+it would take 120 hours, but using this
+
+225
+00:10:25,000 --> 00:10:27,000
+you can somehow get away with it.
+
+226
+00:10:27,000 --> 00:10:29,000
+So everyone used it.
+
+227
+00:10:29,000 --> 00:10:31,000
+Ultimately, the efficiency I always thought about
+
+228
+00:10:31,000 --> 00:10:33,000
+was that 10x or 20x, I will definitely switch.
+
+229
+00:10:33,000 --> 00:10:35,000
+4x or 5x is not even close.
+
+230
+00:10:35,000 --> 00:10:37,000
+That's what I thought.
+
+231
+00:10:37,000 --> 00:10:39,000
+So why did it succeed?
+
+232
+00:10:39,000 --> 00:10:41,000
+The pain size was large,
+
+233
+00:10:41,000 --> 00:10:43,000
+I did it better AI-Native,
+
+234
+00:10:43,000 --> 00:10:45,000
+and at that time
+
+235
+00:10:45,000 --> 00:10:47,000
+communication costs were high,
+
+236
+00:10:47,000 --> 00:10:49,000
+but this worked well because I did it alone?
+
+237
+00:10:49,000 --> 00:10:51,000
+Also, interestingly,
+
+238
+00:10:51,000 --> 00:10:53,000
+looking at domain size,
+
+239
+00:10:53,000 --> 00:10:55,000
+I used proposals much more, and skill consulting
+
+240
+00:10:55,000 --> 00:10:57,000
+was less,
+
+241
+00:10:57,000 --> 00:10:59,000
+and at this time, looking at the tech stack, I used it
+
+242
+00:10:59,000 --> 00:11:01,000
+more heavily. At that time, I only used GPTs.
+
+243
+00:11:01,000 --> 00:11:03,000
+Leadership drive
+
+244
+00:11:03,000 --> 00:11:05,000
+was both driven by me,
+
+245
+00:11:05,000 --> 00:11:07,000
+so these individual
+
+246
+00:11:07,000 --> 00:11:09,000
+components written down,
+
+247
+00:11:09,000 --> 00:11:11,000
+this whole thing lacks
+
+248
+00:11:11,000 --> 00:11:13,000
+explanatory power to explain why success and failure,
+
+249
+00:11:13,000 --> 00:11:15,000
+and it feels unsettling.
+
+250
+00:11:15,000 --> 00:11:17,000
+What really
+
+251
+00:11:17,000 --> 00:11:19,000
+flashed through my mind
+
+252
+00:11:19,000 --> 00:11:21,000
+was that ultimately it's no different from entrepreneurship.
+
+253
+00:11:21,000 --> 00:11:23,000
+I reached that thought.
+
+254
+00:11:23,000 --> 00:11:25,000
+So
+
+255
+00:11:25,000 --> 00:11:27,000
+first, the key is
+
+256
+00:11:27,000 --> 00:11:29,000
+if you think carefully about the first commonality
+
+257
+00:11:29,000 --> 00:11:31,000
+between AX and software startups,
+
+258
+00:11:31,000 --> 00:11:33,000
+ultimately you succeed only when you make customers
+
+259
+00:11:33,000 --> 00:11:35,000
+use your new product.
+
+260
+00:11:35,000 --> 00:11:37,000
+That means customers
+
+261
+00:11:37,000 --> 00:11:39,000
+have to overcome the switching cost
+
+262
+00:11:39,000 --> 00:11:41,000
+of switching from existing products to new products.
+
+263
+00:11:41,000 --> 00:11:43,000
+So now, as Ben Horowitz said,
+
+264
+00:11:43,000 --> 00:11:45,000
+either make a 10x product
+
+265
+00:11:45,000 --> 00:11:47,000
+or they won't switch.
+
+266
+00:11:47,000 --> 00:11:49,000
+In Zero to One as well,
+
+267
+00:11:49,000 --> 00:11:51,000
+this utility of 10x
+
+268
+00:11:51,000 --> 00:11:53,000
+kept staying in my head.
+
+269
+00:11:53,000 --> 00:11:55,000
+Ultimately, it has to be that level
+
+270
+00:11:55,000 --> 00:11:57,000
+to overcome that switching cost. It's very similar to startups?
+
+271
+00:11:57,000 --> 00:11:59,000
+That's what I thought.
+
+272
+00:11:59,000 --> 00:12:01,000
+Ultimately, whether it's a startup or AX,
+
+273
+00:12:01,000 --> 00:12:03,000
+from the perspective that you have to give customers
+
+274
+00:12:03,000 --> 00:12:05,000
+a product that creates 10x utility,
+
+275
+00:12:05,000 --> 00:12:07,000
+you can apply the startup
+
+276
+00:12:07,000 --> 00:12:09,000
+framework almost identically.
+
+277
+00:12:09,000 --> 00:12:11,000
+When going for market in startups,
+
+278
+00:12:11,000 --> 00:12:13,000
+what do they mainly talk about?
+
+279
+00:12:13,000 --> 00:12:15,000
+It's important to absolutely choose a big market.
+
+280
+00:12:15,000 --> 00:12:17,000
+They talk about small markets,
+
+281
+00:12:17,000 --> 00:12:19,000
+but what is a market in AX?
+
+282
+00:12:19,000 --> 00:12:21,000
+What is it?
+
+283
+00:12:23,000 --> 00:12:25,000
+It's time.
+
+284
+00:12:25,000 --> 00:12:27,000
+That time is actually
+
+285
+00:12:27,000 --> 00:12:29,000
+the sizes of time spent
+
+286
+00:12:29,000 --> 00:12:31,000
+by organization and workflow category,
+
+287
+00:12:31,000 --> 00:12:33,000
+each different time is a different market.
+
+288
+00:12:33,000 --> 00:12:35,000
+Those times are the market size.
+
+289
+00:12:35,000 --> 00:12:37,000
+Ultimately, to succeed with limited resources
+
+290
+00:12:37,000 --> 00:12:39,000
+and maintain authority
+
+291
+00:12:39,000 --> 00:12:41,000
+from my leadership,
+
+292
+00:12:41,000 --> 00:12:43,000
+you have to choose a market with large transformational size.
+
+293
+00:12:43,000 --> 00:12:45,000
+Like doing a startup.
+
+294
+00:12:45,000 --> 00:12:47,000
+So in startups, they always talk about MVP,
+
+295
+00:12:47,000 --> 00:12:49,000
+and naturally we
+
+296
+00:12:49,000 --> 00:12:51,000
+go through PoC and scale up.
+
+297
+00:12:51,000 --> 00:12:53,000
+That's how we're doing AX,
+
+298
+00:12:53,000 --> 00:12:55,000
+and it seems like a natural approach.
+
+299
+00:12:55,000 --> 00:12:57,000
+And
+
+300
+00:12:57,000 --> 00:12:59,000
+in startups, they talk a lot about finding PMF.
+
+301
+00:13:01,000 --> 00:13:03,000
+They say you've found PMF
+
+302
+00:13:03,000 --> 00:13:05,000
+only when customers actually pay money.
+
+303
+00:13:05,000 --> 00:13:07,000
+What does finding PMF mean in AX?
+
+304
+00:13:09,000 --> 00:13:11,000
+It's not just
+
+305
+00:13:11,000 --> 00:13:13,000
+"I tried it and it's good,"
+
+306
+00:13:13,000 --> 00:13:15,000
+but reaching a PoC level where you can't go back
+
+307
+00:13:15,000 --> 00:13:17,000
+to the original way.
+
+308
+00:13:17,000 --> 00:13:19,000
+And from a product marketing
+
+309
+00:13:19,000 --> 00:13:21,000
+perspective,
+
+310
+00:13:21,000 --> 00:13:23,000
+the customers are the organization members
+
+311
+00:13:23,000 --> 00:13:25,000
+who use my product.
+
+312
+00:13:25,000 --> 00:13:27,000
+These are laggards.
+
+313
+00:13:27,000 --> 00:13:29,000
+Customers who know nothing about AI,
+
+314
+00:13:29,000 --> 00:13:31,000
+the marketing team.
+
+315
+00:13:31,000 --> 00:13:33,000
+They don't care about that.
+
+316
+00:13:33,000 --> 00:13:35,000
+I fit the pieces to match people
+
+317
+00:13:35,000 --> 00:13:37,000
+and design the user flow
+
+318
+00:13:37,000 --> 00:13:39,000
+so that just thinking leads naturally to the end.
+
+319
+00:13:39,000 --> 00:13:41,000
+You have to make it to that level
+
+320
+00:13:41,000 --> 00:13:43,000
+so they can't go back to the original way. That's finding PMF.
+
+321
+00:13:43,000 --> 00:13:45,000
+There are also investors.
+
+322
+00:13:45,000 --> 00:13:47,000
+In startups, naturally,
+
+323
+00:13:47,000 --> 00:13:49,000
+if VCs who invest when you prove cash are investors,
+
+324
+00:13:49,000 --> 00:13:51,000
+in AX,
+
+325
+00:13:51,000 --> 00:13:53,000
+who are the investors?
+
+326
+00:13:53,000 --> 00:13:55,000
+Upper decision-makers.
+
+327
+00:13:55,000 --> 00:13:57,000
+While I'm being invested in,
+
+328
+00:13:57,000 --> 00:13:59,000
+I have to prove ROI
+
+329
+00:13:59,000 --> 00:14:01,000
+for the resources I've consumed,
+
+330
+00:14:01,000 --> 00:14:03,000
+so upper decision-makers
+
+331
+00:14:03,000 --> 00:14:05,000
+will invest more in me.
+
+332
+00:14:05,000 --> 00:14:07,000
+There's also runway. In startups, when cash runs out, it's bankruptcy.
+
+333
+00:14:07,000 --> 00:14:09,000
+For the AX team,
+
+334
+00:14:09,000 --> 00:14:11,000
+what is runway organizational bankruptcy?
+
+335
+00:14:11,000 --> 00:14:13,000
+Trust.
+
+336
+00:14:13,000 --> 00:14:15,000
+Ultimately,
+
+337
+00:14:15,000 --> 00:14:17,000
+when trust from upper decision-makers hits rock bottom,
+
+338
+00:14:17,000 --> 00:14:19,000
+it's just bankruptcy.
+
+339
+00:14:19,000 --> 00:14:21,000
+Your authority gets confiscated.
+
+340
+00:14:21,000 --> 00:14:23,000
+In terms of difficulty, everyone knows
+
+341
+00:14:23,000 --> 00:14:25,000
+succeeding in a startup is incredibly difficult,
+
+342
+00:14:25,000 --> 00:14:27,000
+but actually I see AX as the same difficulty level.
+
+343
+00:14:27,000 --> 00:14:29,000
+Honestly, it's better to start a company than succeed at this.
+
+344
+00:14:29,000 --> 00:14:31,000
+At least you'd have money.
+
+345
+00:14:31,000 --> 00:14:33,000
+This has no money,
+
+346
+00:14:33,000 --> 00:14:35,000
+it's difficult, it's hard.
+
+347
+00:14:35,000 --> 00:14:37,000
+It's this level of difficulty.
+
+348
+00:14:37,000 --> 00:14:39,000
+Looking at it that way,
+
+349
+00:14:39,000 --> 00:14:41,000
+many people ask
+
+350
+00:14:41,000 --> 00:14:43,000
+why after doing PoC,
+
+351
+00:14:43,000 --> 00:14:45,000
+the next step doesn't go well.
+
+352
+00:14:45,000 --> 00:14:47,000
+It's an obvious thing to say. Naturally, you made an MVP,
+
+353
+00:14:47,000 --> 00:14:49,000
+but the tasks you need to do next
+
+354
+00:14:49,000 --> 00:14:51,000
+are as packed as in a startup.
+
+355
+00:14:51,000 --> 00:14:53,000
+AX is no different. PoC is when the real work
+
+356
+00:14:53,000 --> 00:14:55,000
+begins, so naturally,
+
+357
+00:14:55,000 --> 00:14:57,000
+PoC success absolutely doesn't
+
+358
+00:14:57,000 --> 00:14:59,000
+guarantee AX success.
+
+359
+00:14:59,000 --> 00:15:01,000
+From that perspective, if AX builders
+
+360
+00:15:01,000 --> 00:15:03,000
+are the same as entrepreneurs,
+
+361
+00:15:03,000 --> 00:15:05,000
+what combination of capabilities
+
+362
+00:15:05,000 --> 00:15:07,000
+is needed to succeed in AX?
+
+363
+00:15:07,000 --> 00:15:09,000
+Today we have Echo and
+
+364
+00:15:09,000 --> 00:15:11,000
+Delta meeting,
+
+365
+00:15:11,000 --> 00:15:13,000
+so there's Delta and Echo.
+
+366
+00:15:13,000 --> 00:15:15,000
+What I think is you need additional
+
+367
+00:15:15,000 --> 00:15:17,000
+capabilities beyond this. What is it?
+
+368
+00:15:17,000 --> 00:15:19,000
+The capabilities of PO and PM
+
+369
+00:15:19,000 --> 00:15:21,000
+all need to be combined to be truly
+
+370
+00:15:21,000 --> 00:15:23,000
+AX full-stack,
+
+371
+00:15:23,000 --> 00:15:25,000
+that's what I think. As a consultant,
+
+372
+00:15:25,000 --> 00:15:27,000
+the capability is naturally logic,
+
+373
+00:15:27,000 --> 00:15:29,000
+quickly breaking down problems,
+
+374
+00:15:29,000 --> 00:15:31,000
+structuring bottlenecks, establishing angles,
+
+375
+00:15:31,000 --> 00:15:33,000
+and iterating logic. But importantly,
+
+376
+00:15:33,000 --> 00:15:35,000
+you have to do it really fast.
+
+377
+00:15:35,000 --> 00:15:37,000
+As soon as you hear it, it breaks down, goes all the way, logic comes out,
+
+378
+00:15:37,000 --> 00:15:39,000
+you run it through agents,
+
+379
+00:15:39,000 --> 00:15:41,000
+and if results don't come out well, you come back.
+
+380
+00:15:41,000 --> 00:15:43,000
+You have to be able to do this really fast
+
+381
+00:15:43,000 --> 00:15:45,000
+to have capability as an AX consultant.
+
+382
+00:15:45,000 --> 00:15:47,000
+Naturally, you also need capability
+
+383
+00:15:47,000 --> 00:15:49,000
+as a PO.
+
+384
+00:15:49,000 --> 00:15:51,000
+What kind of being are humans? You need to know how lazy they are
+
+385
+00:15:51,000 --> 00:15:53,000
+and how much they dislike things.
+
+386
+00:15:53,000 --> 00:15:55,000
+You need to have a sense for products
+
+387
+00:15:55,000 --> 00:15:57,000
+that people use,
+
+388
+00:15:57,000 --> 00:15:59,000
+and concepts about iteration,
+
+389
+00:15:59,000 --> 00:16:01,000
+and obsession about problems
+
+390
+00:16:01,000 --> 00:16:03,000
+to succeed again. I
+
+391
+00:16:03,000 --> 00:16:05,000
+learned a lot about this at doeat.
+
+392
+00:16:05,000 --> 00:16:07,000
+Anyway, you need capability
+
+393
+00:16:07,000 --> 00:16:09,000
+as a PO with this kind of obsession.
+
+394
+00:16:09,000 --> 00:16:11,000
+You also need PM. Ultimately,
+
+395
+00:16:11,000 --> 00:16:13,000
+you have to persuade
+
+396
+00:16:13,000 --> 00:16:15,000
+uncooperative counterparties while doing AX.
+
+397
+00:16:15,000 --> 00:16:17,000
+My leadership
+
+398
+00:16:17,000 --> 00:16:19,000
+doesn't give much time,
+
+399
+00:16:19,000 --> 00:16:21,000
+so before hitting bottom, you have to pull the plane up,
+
+400
+00:16:21,000 --> 00:16:23,000
+managing schedules,
+
+401
+00:16:23,000 --> 00:16:25,000
+recovering while doing PoC and succeeding,
+
+402
+00:16:25,000 --> 00:16:27,000
+then the main project.
+
+403
+00:16:27,000 --> 00:16:29,000
+You need this capability as a PM.
+
+404
+00:16:29,000 --> 00:16:31,000
+Actually, there's no difference
+
+405
+00:16:31,000 --> 00:16:33,000
+from entrepreneurs. It's better to start a company.
+
+406
+00:16:33,000 --> 00:16:35,000
+At least you'd have money.
+
+407
+00:16:35,000 --> 00:16:37,000
+Anyway,
+
+408
+00:16:37,000 --> 00:16:39,000
+so then
+
+409
+00:16:39,000 --> 00:16:41,000
+thanks to that, when I thought about what
+
+410
+00:16:41,000 --> 00:16:43,000
+mindset to have when doing AX,
+
+411
+00:16:43,000 --> 00:16:45,000
+entrepreneurs think like this: nothing is
+
+412
+00:16:45,000 --> 00:16:47,000
+impossible in the world. I just couldn't find it. But
+
+413
+00:16:47,000 --> 00:16:49,000
+now we think it's impossible for AI,
+
+414
+00:16:49,000 --> 00:16:51,000
+and I just instructed it wrong.
+
+415
+00:16:51,000 --> 00:16:53,000
+Having that mindset
+
+416
+00:16:53,000 --> 00:16:55,000
+and doing it persistently
+
+417
+00:16:55,000 --> 00:16:57,000
+is how you succeed. That's the capability set
+
+418
+00:16:57,000 --> 00:16:59,000
+that's needed, I think.
+
+419
+00:16:59,000 --> 00:17:01,000
+So there are 3 playbooks
+
+420
+00:17:01,000 --> 00:17:03,000
+I want to talk about today.
+
+421
+00:17:03,000 --> 00:17:05,000
+First,
+
+422
+00:17:05,000 --> 00:17:07,000
+trying thin but end-to-end
+
+423
+00:17:07,000 --> 00:17:09,000
+makes it easier to quickly create PMF.
+
+424
+00:17:09,000 --> 00:17:11,000
+That's the first. Now interpreting with the startup
+
+425
+00:17:11,000 --> 00:17:13,000
+framework,
+
+426
+00:17:13,000 --> 00:17:15,000
+there's always a gap between expectation and reality,
+
+427
+00:17:15,000 --> 00:17:17,000
+and as a business person, I really
+
+428
+00:17:17,000 --> 00:17:19,000
+have to do this. At first,
+
+429
+00:17:19,000 --> 00:17:21,000
+when I visualized the workflow non-realistically,
+
+430
+00:17:21,000 --> 00:17:23,000
+everyone will follow this workflow
+
+431
+00:17:23,000 --> 00:17:25,000
+properly at the organizational level, but
+
+432
+00:17:25,000 --> 00:17:27,000
+that's absolutely not the case. Everyone
+
+433
+00:17:27,000 --> 00:17:29,000
+actually has their own workflow.
+
+434
+00:17:29,000 --> 00:17:31,000
+So after interviewing in more detail
+
+435
+00:17:31,000 --> 00:17:33,000
+and drawing charts, the workflows
+
+436
+00:17:33,000 --> 00:17:35,000
+for making proposals, everyone does it the same,
+
+437
+00:17:35,000 --> 00:17:37,000
+but they all look different. Actually,
+
+438
+00:17:37,000 --> 00:17:39,000
+because common denominators are absent,
+
+439
+00:17:39,000 --> 00:17:41,000
+any bottleneck in the workflow,
+
+440
+00:17:41,000 --> 00:17:43,000
+targeting a specific section,
+
+441
+00:17:43,000 --> 00:17:45,000
+is actually very difficult to succeed at.
+
+442
+00:17:45,000 --> 00:17:47,000
+So there's the approach of being thick
+
+443
+00:17:47,000 --> 00:17:49,000
+and doing part properly,
+
+444
+00:17:49,000 --> 00:17:51,000
+and from the perspective of trying thin but all the way to the end,
+
+445
+00:17:51,000 --> 00:17:53,000
+I think the right side is better.
+
+446
+00:17:53,000 --> 00:17:55,000
+Partially,
+
+447
+00:17:55,000 --> 00:17:57,000
+actually defining a certain section
+
+448
+00:17:57,000 --> 00:17:59,000
+as a bottleneck and doing AS
+
+449
+00:17:59,000 --> 00:18:01,000
+is actually targeting
+
+450
+00:18:01,000 --> 00:18:03,000
+some interviewees' bottleneck,
+
+451
+00:18:03,000 --> 00:18:05,000
+their real intersection,
+
+452
+00:18:05,000 --> 00:18:07,000
+so you're more likely to target
+
+453
+00:18:07,000 --> 00:18:09,000
+only a smaller market.
+
+454
+00:18:09,000 --> 00:18:11,000
+It doesn't become organizational AS.
+
+455
+00:18:11,000 --> 00:18:13,000
+But what we can trust about end-to-end
+
+456
+00:18:13,000 --> 00:18:15,000
+is this. It's not trusting the workflow,
+
+457
+00:18:15,000 --> 00:18:17,000
+but ultimately anyway,
+
+458
+00:18:17,000 --> 00:18:19,000
+workflows have inputs and outputs.
+
+459
+00:18:19,000 --> 00:18:21,000
+And everyone has to use
+
+460
+00:18:21,000 --> 00:18:23,000
+the same input in their own way
+
+461
+00:18:23,000 --> 00:18:25,000
+to make the same final output,
+
+462
+00:18:25,000 --> 00:18:27,000
+a proposal.
+
+463
+00:18:27,000 --> 00:18:29,000
+So when approaching end-to-end, organizational-level
+
+464
+00:18:29,000 --> 00:18:31,000
+AS is more likely. This is the truth.
+
+465
+00:18:31,000 --> 00:18:33,000
+This is actually not the truth.
+
+466
+00:18:33,000 --> 00:18:35,000
+And
+
+467
+00:18:35,000 --> 00:18:37,000
+second, if you choose even edge cases
+
+468
+00:18:37,000 --> 00:18:39,000
+and go thick and deep,
+
+469
+00:18:39,000 --> 00:18:41,000
+there's a very high possibility
+
+470
+00:18:41,000 --> 00:18:43,000
+of folding without even shipping MVP.
+
+471
+00:18:43,000 --> 00:18:45,000
+Because
+
+472
+00:18:45,000 --> 00:18:47,000
+a month passes and you're not dead.
+
+473
+00:18:47,000 --> 00:18:49,000
+Anyway,
+
+474
+00:18:49,000 --> 00:18:51,000
+so you made money.
+
+475
+00:18:51,000 --> 00:18:53,000
+What happened? They ask like that,
+
+476
+00:18:53,000 --> 00:18:55,000
+so in that sense, going thin
+
+477
+00:18:55,000 --> 00:18:57,000
+allows iteration loops to run really fast,
+
+478
+00:18:57,000 --> 00:18:59,000
+and there's a higher possibility
+
+479
+00:18:59,000 --> 00:19:01,000
+of discovering real problems there,
+
+480
+00:19:01,000 --> 00:19:03,000
+I think.
+
+481
+00:19:03,000 --> 00:19:05,000
+Going thin but end-to-end
+
+482
+00:19:05,000 --> 00:19:07,000
+was the first rule I learned. The second is
+
+483
+00:19:07,000 --> 00:19:09,000
+making it AI-Native from the beginning
+
+484
+00:19:09,000 --> 00:19:11,000
+makes it a bit easier to 10x.
+
+485
+00:19:11,000 --> 00:19:13,000
+I think Elon Musk's
+
+486
+00:19:13,000 --> 00:19:15,000
+thinking is also valid for AX.
+
+487
+00:19:15,000 --> 00:19:17,000
+Decompose complex problems
+
+488
+00:19:17,000 --> 00:19:19,000
+to the most basic, fundamental level.
+
+489
+00:19:19,000 --> 00:19:21,000
+That kind of thinking.
+
+490
+00:19:21,000 --> 00:19:23,000
+Rockets are too expensive to make
+
+491
+00:19:23,000 --> 00:19:25,000
+at that price. But what are rockets
+
+492
+00:19:25,000 --> 00:19:27,000
+made of? The raw materials are like this?
+
+493
+00:19:27,000 --> 00:19:29,000
+They're not even expensive? Ultimately, what are the
+
+494
+00:19:29,000 --> 00:19:31,000
+fundamental costs needed for rocket manufacturing?
+
+495
+00:19:31,000 --> 00:19:33,000
+Digging into that,
+
+496
+00:19:33,000 --> 00:19:35,000
+similarly, when doing AX in an organization,
+
+497
+00:19:35,000 --> 00:19:37,000
+there's a lot of work, many tasks,
+
+498
+00:19:37,000 --> 00:19:39,000
+it's hard. When you hear that,
+
+499
+00:19:39,000 --> 00:19:41,000
+rather than just believing it
+
+500
+00:19:41,000 --> 00:19:43,000
+and looking at that workflow exactly,
+
+501
+00:19:43,000 --> 00:19:45,000
+ultimately
+
+502
+00:19:45,000 --> 00:19:47,000
+since we're doing intellectual labor,
+
+503
+00:19:47,000 --> 00:19:49,000
+all our activities are about taking low-value information
+
+504
+00:19:49,000 --> 00:19:51,000
+and making it into high-value information.
+
+505
+00:19:51,000 --> 00:19:53,000
+That's all activities.
+
+506
+00:19:53,000 --> 00:19:55,000
+During the industrial revolution,
+
+507
+00:19:55,000 --> 00:19:57,000
+we escaped physical labor.
+
+508
+00:19:57,000 --> 00:19:59,000
+Looking at it that way, ultimately creating
+
+509
+00:19:59,000 --> 00:20:01,000
+high-value information, all those acts
+
+510
+00:20:01,000 --> 00:20:03,000
+are what we do.
+
+511
+00:20:03,000 --> 00:20:05,000
+Let's break down the process
+
+512
+00:20:05,000 --> 00:20:07,000
+where information value increases. When doing that,
+
+513
+00:20:07,000 --> 00:20:09,000
+if it's not people doing it but we entrust it to agents,
+
+514
+00:20:09,000 --> 00:20:11,000
+how many tasks can we eliminate?
+
+515
+00:20:11,000 --> 00:20:13,000
+Erase all those,
+
+516
+00:20:13,000 --> 00:20:15,000
+and then partially automating the AX part
+
+517
+00:20:15,000 --> 00:20:17,000
+is much better.
+
+518
+00:20:17,000 --> 00:20:19,000
+Rather than starting with human workflow,
+
+519
+00:20:19,000 --> 00:20:21,000
+trust only the output
+
+520
+00:20:21,000 --> 00:20:23,000
+and output of the work,
+
+521
+00:20:23,000 --> 00:20:25,000
+thinking about entrusting it to agents,
+
+522
+00:20:25,000 --> 00:20:27,000
+questioning the tasks
+
+523
+00:20:27,000 --> 00:20:29,000
+that people did as natural tasks,
+
+524
+00:20:29,000 --> 00:20:31,000
+and going AI-Native
+
+525
+00:20:31,000 --> 00:20:33,000
+by simply erasing everything
+
+526
+00:20:33,000 --> 00:20:35,000
+makes creating 10x much easier.
+
+527
+00:20:35,000 --> 00:20:37,000
+That's the second point. The last is
+
+528
+00:20:37,000 --> 00:20:39,000
+you have to become AX full-stack.
+
+529
+00:20:39,000 --> 00:20:41,000
+Because ultimately,
+
+530
+00:20:41,000 --> 00:20:43,000
+before cash, before runway
+
+531
+00:20:43,000 --> 00:20:45,000
+all gets fixed,
+
+532
+00:20:45,000 --> 00:20:47,000
+before the balance of trust and
+
+533
+00:20:47,000 --> 00:20:49,000
+patience runs out,
+
+534
+00:20:49,000 --> 00:20:51,000
+to succeed, you ultimately need speed.
+
+535
+00:20:51,000 --> 00:20:53,000
+So
+
+536
+00:20:53,000 --> 00:20:55,000
+when they gave you time and a month passed, when they ask "what happened?"
+
+537
+00:20:55,000 --> 00:20:57,000
+some effect has to come out or transformation
+
+538
+00:20:57,000 --> 00:20:59,000
+has to happen to keep making investment
+
+539
+00:20:59,000 --> 00:21:01,000
+from the CEO.
+
+540
+00:21:01,000 --> 00:21:03,000
+Looking at it, ultimately,
+
+541
+00:21:03,000 --> 00:21:05,000
+from an AX perspective,
+
+542
+00:21:05,000 --> 00:21:07,000
+you have to be full-stack to succeed.
+
+543
+00:21:07,000 --> 00:21:09,000
+I'm only thinking about our organization.
+
+544
+00:21:09,000 --> 00:21:11,000
+In my case,
+
+545
+00:21:11,000 --> 00:21:13,000
+I'm Echo but to become Delta,
+
+546
+00:21:13,000 --> 00:21:15,000
+I'm trying Protex,
+
+547
+00:21:15,000 --> 00:21:17,000
+just like those of you
+
+548
+00:21:17,000 --> 00:21:19,000
+attending today,
+
+549
+00:21:19,000 --> 00:21:21,000
+there were many people
+
+550
+00:21:21,000 --> 00:21:23,000
+in frontend roles.
+
+551
+00:21:23,000 --> 00:21:25,000
+Frontend-focused engineer
+
+552
+00:21:25,000 --> 00:21:27,000
+developers need to be Delta to Echo,
+
+553
+00:21:27,000 --> 00:21:29,000
+continuously expanding capabilities and skillsets
+
+554
+00:21:29,000 --> 00:21:31,000
+to become full-stack,
+
+555
+00:21:31,000 --> 00:21:33,000
+to gain speed and succeed.
+
+556
+00:21:33,000 --> 00:21:35,000
+That's my final conclusion.
+
+557
+00:21:35,000 --> 00:21:37,000
+Thank you.
