@@ -1,0 +1,4 @@
+# 민감 정보 제외
+attendee.csv
+*.xlsx
+.DS_Store

@@ -10,7 +10,7 @@
 |---|------|------|------|
 | 1 | [Maker Only](./1-maker-only/) | 2024-11-18 | 선정릉역 디캠프 |
 | 2 | [Echo & Delta](./2-echo-delta/) | 2025-12-30 | 서울숲역 쏘카 |
-| 3 | [100x Engineers](./3-100x-engineers/) | TBD | Naver D2 |
+| 3 | [Skillthon](./3-skillthon/) | TBD | Naver D2SF |
 
 ---
 
