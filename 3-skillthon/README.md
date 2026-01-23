@@ -88,10 +88,11 @@ Anthropic 공식 지원 하에 진행되며, 참가자들에게는 Claude Credit
 
 | 순서 | 스피커 | 소속 | 주제 |
 |------|--------|------|------|
-| 1 | 정구봉 | Team Attention | Claude Code를 개발 말고 General하게 쓰기 |
-| 2 | 최종원 | 딜라이트룸 | Terminal 맛깔나게 - ghostty, hooks, status line |
-| 3 | 이재규 | ZEP | 팀 차원에서 Claude Code 관리하는 방법 |
-| 4 | 김연규 | Indent | oh my opencode 개발기 |
+| 0 | 이엽 | Anthropic | Opening Keynote |
+| 1 | 최종원 | 딜라이트룸 | Claude Code in terminal |
+| 2 | 이재규 | ZEP | Frictionless Native |
+| 3 | 김연규 | Indent | oh my opencode 개발기 |
+| 4 | 정구봉 | Team Attention | Claude Code를 General하게 쓰기 |
 
 ### Speaker Details
 
