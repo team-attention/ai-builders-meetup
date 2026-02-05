@@ -1,0 +1,21 @@
+# Environment
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# YouTube API credentials
+client_secrets.json
+.youtube_token.json

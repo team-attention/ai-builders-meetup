@@ -1,0 +1,291 @@
+1
+00:00:00,000 --> 00:00:10,519
+Hello, I'm Kim Seojin, and I'll be presenting on the topic of operating an AI-Native Company.
+
+2
+00:00:11,400 --> 00:00:19,320
+First off, we discuss a lot about what an AI-Native company is,
+
+3
+00:00:19,320 --> 00:00:36,219
+and I've defined AI-Native not as people using AI through systems and tools, but rather as AI Agents using systems and tools themselves.
+
+4
+00:00:36,219 --> 00:00:41,320
+So what should an AI-Native Company look like?
+
+5
+00:00:41,320 --> 00:00:49,299
+Instead of people like Backend engineers, Frontend engineers, and DevOps using AI for development,
+
+6
+00:00:49,299 --> 00:00:56,019
+there's an Orchestrator, and AI that plays backend roles and AI that plays frontend roles.
+
+7
+00:00:56,019 --> 00:01:05,280
+Various AI agents with different roles perform defined workflows and access resources through systems and tools.
+
+8
+00:01:05,280 --> 00:01:10,439
+This is ultimately what I've defined as an AI-Native Company.
+
+9
+00:01:10,439 --> 00:01:18,799
+So I left my job as an engineer who was doing AI-Assisted development,
+
+10
+00:01:19,280 --> 00:01:25,840
+and built an AI-Native Company from scratch.
+
+11
+00:01:25,840 --> 00:01:34,439
+So I've set up an Orchestrator to execute 22 Agents and 50 Workflows.
+
+12
+00:01:34,439 --> 00:01:40,719
+Looking at how this system works, the user makes a request,
+
+13
+00:01:40,719 --> 00:01:45,819
+and I customized the Agent Council created by Team Attention,
+
+14
+00:01:45,819 --> 00:01:48,780
+with various types of LLMs and
+
+15
+00:01:48,780 --> 00:01:53,519
+Agent Councils with different roles that make decisions on
+
+16
+00:01:53,519 --> 00:01:57,260
+ambiguous or unclear matters in between,
+
+17
+00:01:57,260 --> 00:02:04,219
+and through those, the Orchestrator executes Agents and Skills.
+
+18
+00:02:04,219 --> 00:02:09,020
+This AI-Native Company has two teams.
+
+19
+00:02:09,020 --> 00:02:15,780
+First, there's AI-Native Builders, and a team called AI-Native Marketers.
+
+20
+00:02:15,780 --> 00:02:18,780
+And just for reference, this company ultimately helps with marketing agency work for various beauty brands,
+
+21
+00:02:26,780 --> 00:02:38,780
+and I'm running it alone by building two AI teams: the AI-Native Builders development team and AI-Native Marketers.
+
+22
+00:02:38,780 --> 00:02:44,780
+Let me introduce how I built this AI-Native Builders.
+
+23
+00:02:44,780 --> 00:02:52,780
+When a user inputs something, I proactively define how to orchestrate it,
+
+24
+00:02:52,780 --> 00:03:07,780
+and at the planning layer, depending on the specific information in my request, I decide whether to bring in context or external information through research,
+
+25
+00:03:07,780 --> 00:03:13,780
+and the solution planner decides which tech stack to use for development.
+
+26
+00:03:13,780 --> 00:03:17,780
+In the builder layer, there are actually two types:
+
+27
+00:03:17,780 --> 00:03:30,780
+when implementing features in existing services, it retrieves the architecture and context from the existing service and implements features following them,
+
+28
+00:03:30,780 --> 00:03:40,780
+and in the case of service builders, various agents are selected according to the specified tech stack to proceed with development.
+
+29
+00:03:40,780 --> 00:03:46,780
+So as I mentioned earlier, for technical decisions or architecture reviews,
+
+30
+00:03:46,780 --> 00:03:49,780
+decisions are made by the technical council.
+
+31
+00:03:49,780 --> 00:04:01,780
+That way, even with simple requests, I made it so the Builders can operate according to my existing development workflow.
+
+32
+00:04:01,780 --> 00:04:11,780
+For example, if I specify to create a certain service and what the tech stack should be,
+
+33
+00:04:11,780 --> 00:04:20,779
+an Agent called Research Confirmist retrieves all the information from external resources.
+
+34
+00:04:20,779 --> 00:04:28,779
+It gathers background information like what this blog service should be like and what features should be included,
+
+35
+00:04:28,779 --> 00:04:34,779
+and then through the planner, it decides how to design the architecture and structure,
+
+36
+00:04:34,779 --> 00:04:44,779
+and the UI designer calls a Skill called brand design system that I created beforehand to make design decisions.
+
+37
+00:04:44,779 --> 00:04:52,779
+From implementation to deployment, it actually takes about 90 minutes.
+
+38
+00:04:52,779 --> 00:04:57,779
+There are actually a lot of outputs, but I've selected some of them.
+
+39
+00:04:57,779 --> 00:05:13,779
+For example, a site where you can see CS146, which went very viral recently, translated into Korean with slides, GitHub, PDF, and website all available, or creating variations of advertising materials tailored to the company's brand and products.
+
+40
+00:05:14,779 --> 00:05:22,779
+Generating content, or identifying and analyzing trending signals on TikTok,
+
+41
+00:05:22,779 --> 00:05:31,779
+and understanding the semantics of TikTok comments - we're delivering these services to clients.
+
+42
+00:05:31,779 --> 00:05:39,779
+I want to share four key points I've learned about what works well,
+
+43
+00:05:39,779 --> 00:05:50,779
+and first, it works much better when you structure the work processes that exist as tacit knowledge in your head and define them in Skills.
+
+44
+00:05:50,779 --> 00:06:01,779
+For example, even when researching and gathering information, people have internal criteria for judging the reliability of that information,
+
+45
+00:06:01,779 --> 00:06:10,779
+so official documentation is P0, tech blogs are P1, and something like Naver JisikIn would be P3 or P4.
+
+46
+00:06:10,779 --> 00:06:13,779
+First structure how you work like this,
+
+47
+00:06:14,779 --> 00:06:19,779
+and it works much better when you make Skills or Agents reproduce them.
+
+48
+00:06:19,779 --> 00:06:24,779
+I'm sure you're familiar with Spec-Driven Development,
+
+49
+00:06:24,779 --> 00:06:34,779
+and then at each plan stage, I design in advance with gates when to proceed to the next page and when not to.
+
+50
+00:06:34,779 --> 00:06:38,779
+So I create criteria for those gates in advance,
+
+51
+00:06:38,779 --> 00:06:44,779
+for example, if test coverage is 70% or higher here, proceed, otherwise make it go through the iteration again,
+
+52
+00:06:44,779 --> 00:06:54,779
+it's important to set merge conditions for gates well at various points.
+
+53
+00:06:54,779 --> 00:07:05,779
+Lastly, things like understanding Django can be solved by AI fetching documents well.
+
+54
+00:07:05,779 --> 00:07:13,779
+So as I'm building this system, I'm thinking more about how AI can use frameworks well rather than understanding the frameworks themselves.
+
+55
+00:07:34,779 --> 00:07:45,779
+creating materials, and after creating materials, the AI Reviewer decides what needs to be revised,
+
+56
+00:07:45,779 --> 00:07:50,779
+what doesn't match our brand guidelines, or gives scores and such.
+
+57
+00:07:50,779 --> 00:07:56,779
+After actually running performance marketing, it retrieves those metrics,
+
+58
+00:07:56,779 --> 00:08:05,779
+and the marketer directly reviews why the creatives that worked well worked and why those that didn't work didn't work, and these criteria continuously accumulate in the AI system.
+
+59
+00:08:05,779 --> 00:08:13,779
+And then after a certain point, the AI automatically looks at the results,
+
+60
+00:08:13,779 --> 00:08:19,779
+creates variations on its own, and executes marketing.
+
+61
+00:08:19,779 --> 00:08:26,779
+So actually extracting layouts and brand assets from external sources, creating variations from there,
+
+62
+00:08:26,779 --> 00:08:29,779
+generating marketing at once, the marketing performance workflow,
+
+63
+00:08:29,779 --> 00:08:34,779
+why it worked well when actually executed, what worked well, what didn't work,
+
+64
+00:08:34,779 --> 00:08:40,779
+and even deciding how much marketing budget to allocate going forward - the AI Agent makes these decisions
+
+65
+00:08:40,779 --> 00:08:44,779
+and has reached the stage where it can actually execute them.
+
+66
+00:08:50,779 --> 00:08:55,779
+So over the past 40 days, the AI-Native Company
+
+67
+00:09:08,779 --> 00:09:14,459
+was able to create and deliver about 30 services using about 4.46 billion tokens.
+
+68
+00:09:14,620 --> 00:09:18,480
+Through this maximization of productivity,
+
+69
+00:09:18,480 --> 00:09:23,759
+I'm building an automated brand system that can be operated by one person.
+
+70
+00:09:24,860 --> 00:09:30,899
+I wanted to discuss whether your team is fully leveraging the potential of AI,
+
+71
+00:09:30,899 --> 00:09:37,839
+and whether there are areas where you could do better,
+
+72
+00:09:37,840 --> 00:09:45,620
+and I'll reach out to those interested in the future of branding and marketing being transformed by this.
+
+73
+00:09:45,840 --> 00:09:47,920
+That concludes my presentation.
